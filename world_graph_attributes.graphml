@@ -1,198 +1,776 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="node" attr.name="gdp" attr.type="long" />
+  <key id="d0" for="node" attr.name="sentiment_score" attr.type="double" />
   <graph edgedefault="directed">
-    <node id="Afghanistan" />
-    <node id="China" />
-    <node id="Egypt" />
-    <node id="France" />
-    <node id="India" />
-    <node id="Iran" />
-    <node id="Italy" />
-    <node id="Pakistan" />
-    <node id="Qatar" />
-    <node id="Russia" />
-    <node id="United_Kingdom" />
-    <node id="United_States" />
-    <node id="Uzbekistan" />
-    <node id="Albania" />
-    <node id="Bosnia_and_Herzegovina" />
-    <node id="Bulgaria" />
-    <node id="Germany" />
-    <node id="Greece" />
-    <node id="Ireland" />
-    <node id="Montenegro" />
-    <node id="Serbia" />
-    <node id="Spain" />
-    <node id="Algeria" />
-    <node id="Iceland" />
-    <node id="Libya" />
-    <node id="Mali" />
-    <node id="Malta" />
-    <node id="Mauritania" />
-    <node id="Morocco" />
-    <node id="Netherlands" />
-    <node id="Portugal" />
-    <node id="Tunisia" />
-    <node id="Andorra" />
-    <node id="Angola" />
-    <node id="Brazil" />
-    <node id="Republic_of_the_Congo" />
-    <node id="Democratic_Republic_of_the_Congo" />
-    <node id="Gabon" />
-    <node id="Niger" />
-    <node id="Nigeria" />
-    <node id="Zimbabwe" />
-    <node id="Antigua_and_Barbuda" />
-    <node id="Argentina" />
-    <node id="Australia" />
-    <node id="Belgium" />
-    <node id="Canada" />
-    <node id="Chile" />
-    <node id="Colombia" />
-    <node id="Cuba" />
-    <node id="Denmark" />
-    <node id="Georgia" />
-    <node id="Japan" />
-    <node id="New_Zealand" />
-    <node id="Paraguay" />
-    <node id="Peru" />
-    <node id="Philippines" />
-    <node id="Switzerland" />
-    <node id="Venezuela" />
-    <node id="Armenia" />
-    <node id="Azerbaijan" />
-    <node id="Turkey" />
-    <node id="Guinea" />
-    <node id="Iraq" />
-    <node id="Singapore" />
-    <node id="Vietnam" />
-    <node id="Austria" />
-    <node id="Hungary" />
-    <node id="Liechtenstein" />
-    <node id="Luxembourg" />
-    <node id="Poland" />
-    <node id="Slovenia" />
-    <node id="Bahrain" />
-    <node id="Israel" />
-    <node id="Kuwait" />
-    <node id="Lebanon" />
-    <node id="Oman" />
-    <node id="Saudi_Arabia" />
-    <node id="Bangladesh" />
-    <node id="Barbados" />
-    <node id="Grenada" />
-    <node id="Guyana" />
-    <node id="Trinidad_and_Tobago" />
-    <node id="Belarus" />
-    <node id="Lithuania" />
-    <node id="Norway" />
-    <node id="Ukraine" />
-    <node id="Belize" />
-    <node id="Guatemala" />
-    <node id="Honduras" />
-    <node id="Jamaica" />
-    <node id="Mexico" />
-    <node id="Benin" />
-    <node id="North_Korea" />
-    <node id="Bhutan" />
-    <node id="Nepal" />
-    <node id="Bolivia" />
-    <node id="Panama" />
-    <node id="Croatia" />
-    <node id="Sweden" />
-    <node id="Botswana" />
-    <node id="Eswatini" />
-    <node id="Lesotho" />
-    <node id="Namibia" />
-    <node id="South_Africa" />
-    <node id="Mozambique" />
-    <node id="Uruguay" />
-    <node id="Brunei" />
-    <node id="Cambodia" />
-    <node id="Fiji" />
-    <node id="Malaysia" />
-    <node id="Burkina_Faso" />
-    <node id="Ivory_Coast" />
-    <node id="Senegal" />
-    <node id="Sudan" />
-    <node id="Burundi" />
-    <node id="Rwanda" />
-    <node id="Somalia" />
-    <node id="Uganda" />
-    <node id="Tanzania" />
-    <node id="Sri_Lanka" />
-    <node id="Thailand" />
-    <node id="Cameroon" />
-    <node id="Chad" />
-    <node id="Cape_Verde" />
-    <node id="Central_African_Republic" />
-    <node id="Nicaragua" />
-    <node id="Mongolia" />
-    <node id="Ecuador" />
-    <node id="Haiti" />
-    <node id="Comoros" />
-    <node id="Kenya" />
-    <node id="Madagascar" />
-    <node id="Mauritius" />
-    <node id="Costa_Rica" />
-    <node id="El_Salvador" />
-    <node id="Dominican_Republic" />
-    <node id="Ethiopia" />
-    <node id="Cyprus" />
-    <node id="Czech_Republic" />
-    <node id="Slovakia" />
-    <node id="South_Sudan" />
-    <node id="Togo" />
-    <node id="Estonia" />
-    <node id="Ghana" />
-    <node id="Djibouti" />
-    <node id="Eritrea" />
-    <node id="Yemen" />
-    <node id="Dominica" />
-    <node id="Syria" />
-    <node id="Equatorial_Guinea" />
-    <node id="Liberia" />
-    <node id="Sierra_Leone" />
-    <node id="Finland" />
-    <node id="Latvia" />
-    <node id="Indonesia" />
-    <node id="Samoa" />
-    <node id="Solomon_Islands" />
-    <node id="Tonga" />
-    <node id="Guinea-Bissau" />
-    <node id="Romania" />
-    <node id="Jordan" />
-    <node id="Turkmenistan" />
-    <node id="Kazakhstan" />
-    <node id="Zambia" />
-    <node id="Kiribati" />
-    <node id="Nauru" />
-    <node id="Tuvalu" />
-    <node id="Kyrgyzstan" />
-    <node id="Tajikistan" />
-    <node id="Laos" />
-    <node id="United_Arab_Emirates" />
-    <node id="Malawi" />
-    <node id="Maldives" />
-    <node id="Marshall_Islands" />
-    <node id="Micronesia" />
-    <node id="Palau" />
-    <node id="Seychelles" />
-    <node id="Vanuatu" />
-    <node id="Monaco" />
-    <node id="Myanmar" />
-    <node id="Suriname" />
-    <node id="South_Korea" />
-    <node id="North_Macedonia" />
-    <node id="Papua_New_Guinea" />
-    <node id="Saint_Kitts_and_Nevis" />
-    <node id="Saint_Lucia" />
-    <node id="Saint_Vincent_and_the_Grenadines" />
-    <node id="San_Marino" />
-    <node id="The_Gambia" />
-    <node id="São_Tomé_and_Príncipe" />
-    <node id="The_Bahamas" />
-    <node id="Timor-Leste" />
+    <node id="Afghanistan">
+      <data key="d0">3.0</data>
+      <data key="d1">19101353833</data>
+    </node>
+    <node id="China">
+      <data key="d0">4.4</data>
+      <data key="d1">19910000000000</data>
+    </node>
+    <node id="Egypt">
+      <data key="d0">4.1</data>
+      <data key="d1">303175127598</data>
+    </node>
+    <node id="France">
+      <data key="d0">5.7</data>
+      <data key="d1">2715518274227</data>
+    </node>
+    <node id="India">
+      <data key="d0">6.0</data>
+      <data key="d1">2611000000000</data>
+    </node>
+    <node id="Iran">
+      <data key="d0">4.8</data>
+      <data key="d1">445345282123</data>
+    </node>
+    <node id="Italy">
+      <data key="d0">5.7</data>
+      <data key="d1">2001244392042</data>
+    </node>
+    <node id="Pakistan">
+      <data key="d0">4.7</data>
+      <data key="d1">304400000000</data>
+    </node>
+    <node id="Qatar">
+      <data key="d0">6.3</data>
+      <data key="d1">183466208791</data>
+    </node>
+    <node id="Russia">
+      <data key="d0">4.1</data>
+      <data key="d1">1699876578871</data>
+    </node>
+    <node id="United_Kingdom">
+      <data key="d0">6.1</data>
+      <data key="d1">2827113184696</data>
+    </node>
+    <node id="United_States">
+      <data key="d0">5.8</data>
+      <data key="d1">21427700000000</data>
+    </node>
+    <node id="Uzbekistan">
+      <data key="d0">4.1</data>
+      <data key="d1">57921286440</data>
+    </node>
+    <node id="Albania">
+      <data key="d0">5.9</data>
+      <data key="d1">15278077447</data>
+    </node>
+    <node id="Bosnia_and_Herzegovina">
+      <data key="d0">4.1</data>
+      <data key="d1">20047848435</data>
+    </node>
+    <node id="Bulgaria">
+      <data key="d0">5.2</data>
+      <data key="d1">86000000000</data>
+    </node>
+    <node id="Germany">
+      <data key="d0">5.5</data>
+      <data key="d1">3845630030824</data>
+    </node>
+    <node id="Greece">
+      <data key="d0">6.2</data>
+      <data key="d1">209852761469</data>
+    </node>
+    <node id="Ireland">
+      <data key="d0">4.5</data>
+      <data key="d1">388698711348</data>
+    </node>
+    <node id="Montenegro">
+      <data key="d0">5.3</data>
+      <data key="d1">5494736901</data>
+    </node>
+    <node id="Serbia">
+      <data key="d0">4.7</data>
+      <data key="d1">51409167351</data>
+    </node>
+    <node id="Spain">
+      <data key="d0">5.7</data>
+      <data key="d1">1394116310769</data>
+    </node>
+    <node id="Algeria">
+      <data key="d0">4.7</data>
+      <data key="d1">169988236398</data>
+    </node>
+    <node id="Iceland">
+      <data key="d0">6.0</data>
+      <data key="d1">24188035739</data>
+    </node>
+    <node id="Libya">
+      <data key="d0">3.8</data>
+      <data key="d1">52076250948</data>
+    </node>
+    <node id="Mali">
+      <data key="d0">3.6</data>
+      <data key="d1">17510141171</data>
+    </node>
+    <node id="Malta">
+      <data key="d0">6.2</data>
+      <data key="d1">14786156563</data>
+    </node>
+    <node id="Mauritania">
+      <data key="d0">4.6</data>
+      <data key="d1">7593752450</data>
+    </node>
+    <node id="Morocco">
+      <data key="d0">5.5</data>
+      <data key="d1">118725279596</data>
+    </node>
+    <node id="Netherlands">
+      <data key="d0">6.3</data>
+      <data key="d1">909070395161</data>
+    </node>
+    <node id="Portugal">
+      <data key="d0">5.9</data>
+      <data key="d1">237686075635</data>
+    </node>
+    <node id="Tunisia">
+      <data key="d0">5.0</data>
+      <data key="d1">38797709924</data>
+    </node>
+    <node id="Andorra">
+      <data key="d0">6.1</data>
+      <data key="d1">3154057987</data>
+    </node>
+    <node id="Angola">
+      <data key="d0">4.5</data>
+      <data key="d1">94635415870</data>
+    </node>
+    <node id="Brazil">
+      <data key="d0">5.3</data>
+      <data key="d1">1839758040766</data>
+    </node>
+    <node id="Republic_of_the_Congo">
+      <data key="d0">4.4</data>
+      <data key="d1">10820591131</data>
+    </node>
+    <node id="Democratic_Republic_of_the_Congo">
+      <data key="d0">3.3</data>
+      <data key="d1">47319624204</data>
+    </node>
+    <node id="Gabon">
+      <data key="d0">4.2</data>
+      <data key="d1">16657960228</data>
+    </node>
+    <node id="Niger">
+      <data key="d0">3.8</data>
+      <data key="d1">12928145120</data>
+    </node>
+    <node id="Nigeria">
+      <data key="d0">4.8</data>
+      <data key="d1">448120428859</data>
+    </node>
+    <node id="Zimbabwe">
+      <data key="d0">3.3</data>
+      <data key="d1">21440758800</data>
+    </node>
+    <node id="Antigua_and_Barbuda">
+      <data key="d0">5.1</data>
+      <data key="d1">1727759259</data>
+    </node>
+    <node id="Argentina">
+      <data key="d0">4.9</data>
+      <data key="d1">449663446954</data>
+    </node>
+    <node id="Australia">
+      <data key="d0">5.7</data>
+      <data key="d1">1392680589329</data>
+    </node>
+    <node id="Belgium">
+      <data key="d0">5.7</data>
+      <data key="d1">529606710418</data>
+    </node>
+    <node id="Canada">
+      <data key="d0">6.2</data>
+      <data key="d1">1736425629520</data>
+    </node>
+    <node id="Chile">
+      <data key="d0">5.7</data>
+      <data key="d1">282318159745</data>
+    </node>
+    <node id="Colombia">
+      <data key="d0">4.6</data>
+      <data key="d1">323802808108</data>
+    </node>
+    <node id="Cuba">
+      <data key="d0">4.0</data>
+      <data key="d1">100023000000</data>
+    </node>
+    <node id="Denmark">
+      <data key="d0">7.2</data>
+      <data key="d1">348078018464</data>
+    </node>
+    <node id="Georgia">
+      <data key="d0">5.3</data>
+      <data key="d1">17743195770</data>
+    </node>
+    <node id="Japan">
+      <data key="d0">6.5</data>
+      <data key="d1">5081769542380</data>
+    </node>
+    <node id="New_Zealand">
+      <data key="d0">6.7</data>
+      <data key="d1">206928765544</data>
+    </node>
+    <node id="Paraguay">
+      <data key="d0">4.3</data>
+      <data key="d1">38145288940</data>
+    </node>
+    <node id="Peru">
+      <data key="d0">5.2</data>
+      <data key="d1">226848050820</data>
+    </node>
+    <node id="Philippines">
+      <data key="d0">5.2</data>
+      <data key="d1">376795508680</data>
+    </node>
+    <node id="Switzerland">
+      <data key="d0">7.0</data>
+      <data key="d1">703082435360</data>
+    </node>
+    <node id="Venezuela">
+      <data key="d0">3.9</data>
+      <data key="d1">482359318768</data>
+    </node>
+    <node id="Armenia">
+      <data key="d0">4.5</data>
+      <data key="d1">13672802158</data>
+    </node>
+    <node id="Azerbaijan">
+      <data key="d0">4.3</data>
+      <data key="d1">39207000000</data>
+    </node>
+    <node id="Turkey">
+      <data key="d0">5.2</data>
+      <data key="d1">754411708203</data>
+    </node>
+    <node id="Guinea">
+      <data key="d0">3.6</data>
+      <data key="d1">13590281809</data>
+    </node>
+    <node id="Iraq">
+      <data key="d0">4.9</data>
+      <data key="d1">234094042939</data>
+    </node>
+    <node id="Singapore">
+      <data key="d0">6.7</data>
+      <data key="d1">372062527489</data>
+    </node>
+    <node id="Vietnam">
+      <data key="d0">4.4</data>
+      <data key="d1">261921244843</data>
+    </node>
+    <node id="Austria">
+      <data key="d0">6.0</data>
+      <data key="d1">446314739528</data>
+    </node>
+    <node id="Hungary">
+      <data key="d0">5.2</data>
+      <data key="d1">160967157504</data>
+    </node>
+    <node id="Liechtenstein">
+      <data key="d0">6.6</data>
+      <data key="d1">6552858739</data>
+    </node>
+    <node id="Luxembourg">
+      <data key="d0">6.5</data>
+      <data key="d1">71104919108</data>
+    </node>
+    <node id="Poland">
+      <data key="d0">5.0</data>
+      <data key="d1">592164400688</data>
+    </node>
+    <node id="Slovenia">
+      <data key="d0">6.4</data>
+      <data key="d1">53742159517</data>
+    </node>
+    <node id="Bahrain">
+      <data key="d0">5.3</data>
+      <data key="d1">38574069149</data>
+    </node>
+    <node id="Israel">
+      <data key="d0">4.2</data>
+      <data key="d1">395098666122</data>
+    </node>
+    <node id="Kuwait">
+      <data key="d0">5.5</data>
+      <data key="d1">134761198946</data>
+    </node>
+    <node id="Lebanon">
+      <data key="d0">3.2</data>
+      <data key="d1">53367042272</data>
+    </node>
+    <node id="Oman">
+      <data key="d0">5.5</data>
+      <data key="d1">76983094928</data>
+    </node>
+    <node id="Saudi_Arabia">
+      <data key="d0">5.0</data>
+      <data key="d1">792966838162</data>
+    </node>
+    <node id="Bangladesh">
+      <data key="d0">5.0</data>
+      <data key="d1">302571254131</data>
+    </node>
+    <node id="Barbados">
+      <data key="d0">5.1</data>
+      <data key="d1">5209000000</data>
+    </node>
+    <node id="Grenada">
+      <data key="d0">4.5</data>
+      <data key="d1">1228170370</data>
+    </node>
+    <node id="Guyana">
+      <data key="d0">4.4</data>
+      <data key="d1">4280443645</data>
+    </node>
+    <node id="Trinidad_and_Tobago">
+      <data key="d0">5.4</data>
+      <data key="d1">24100202834</data>
+    </node>
+    <node id="Belarus">
+      <data key="d0">3.8</data>
+      <data key="d1">63080457023</data>
+    </node>
+    <node id="Lithuania">
+      <data key="d0">4.7</data>
+      <data key="d1">54219315600</data>
+    </node>
+    <node id="Norway">
+      <data key="d0">6.7</data>
+      <data key="d1">403336363636</data>
+    </node>
+    <node id="Ukraine">
+      <data key="d0">4.2</data>
+      <data key="d1">153781069118</data>
+    </node>
+    <node id="Belize">
+      <data key="d0">5.6</data>
+      <data key="d1">1879613600</data>
+    </node>
+    <node id="Guatemala">
+      <data key="d0">4.2</data>
+      <data key="d1">76710385880</data>
+    </node>
+    <node id="Honduras">
+      <data key="d0">4.3</data>
+      <data key="d1">25095395475</data>
+    </node>
+    <node id="Jamaica">
+      <data key="d0">4.7</data>
+      <data key="d1">16458071068</data>
+    </node>
+    <node id="Mexico">
+      <data key="d0">5.2</data>
+      <data key="d1">1258286717125</data>
+    </node>
+    <node id="Benin">
+      <data key="d0">4.6</data>
+      <data key="d1">14390709095</data>
+    </node>
+    <node id="North_Korea">
+      <data key="d0">4.1</data>
+      <data key="d1">32100000000</data>
+    </node>
+    <node id="Bhutan">
+      <data key="d0">5.7</data>
+      <data key="d1">2446674101</data>
+    </node>
+    <node id="Nepal">
+      <data key="d0">5.4</data>
+      <data key="d1">30641380604</data>
+    </node>
+    <node id="Bolivia">
+      <data key="d0">4.5</data>
+      <data key="d1">40895322865</data>
+    </node>
+    <node id="Panama">
+      <data key="d0">4.8</data>
+      <data key="d1">66800800000</data>
+    </node>
+    <node id="Croatia">
+      <data key="d0">5.1</data>
+      <data key="d1">60415553039</data>
+    </node>
+    <node id="Sweden">
+      <data key="d0">6.3</data>
+      <data key="d1">530832908738</data>
+    </node>
+    <node id="Botswana">
+      <data key="d0">6.4</data>
+      <data key="d1">18340510789</data>
+    </node>
+    <node id="Eswatini">
+      <data key="d0">4.0</data>
+      <data key="d1">3791304348</data>
+    </node>
+    <node id="Lesotho">
+      <data key="d0">4.1</data>
+      <data key="d1">2460072444</data>
+    </node>
+    <node id="Namibia">
+      <data key="d0">4.8</data>
+      <data key="d1">12366527719</data>
+    </node>
+    <node id="South_Africa">
+      <data key="d0">5.0</data>
+      <data key="d1">351431649241</data>
+    </node>
+    <node id="Mozambique">
+      <data key="d0">3.7</data>
+      <data key="d1">14934159926</data>
+    </node>
+    <node id="Uruguay">
+      <data key="d0">5.4</data>
+      <data key="d1">56045912952</data>
+    </node>
+    <node id="Brunei">
+      <data key="d0">5.6</data>
+      <data key="d1">13469422941</data>
+    </node>
+    <node id="Cambodia">
+      <data key="d0">3.9</data>
+      <data key="d1">27089389787</data>
+    </node>
+    <node id="Fiji">
+      <data key="d0">4.6</data>
+      <data key="d1">5535548972</data>
+    </node>
+    <node id="Malaysia">
+      <data key="d0">5.5</data>
+      <data key="d1">364701517788</data>
+    </node>
+    <node id="Burkina_Faso">
+      <data key="d0">3.3</data>
+      <data key="d1">15745810235</data>
+    </node>
+    <node id="Ivory_Coast">
+      <data key="d0">4.8</data>
+      <data key="d1">58792205642</data>
+    </node>
+    <node id="Senegal">
+      <data key="d0">5.7</data>
+      <data key="d1">23578084052</data>
+    </node>
+    <node id="Sudan">
+      <data key="d0">4.0</data>
+      <data key="d1">18902284476</data>
+    </node>
+    <node id="Burundi">
+      <data key="d0">3.4</data>
+      <data key="d1">3012334882</data>
+    </node>
+    <node id="Rwanda">
+      <data key="d0">4.2</data>
+      <data key="d1">10122472590</data>
+    </node>
+    <node id="Somalia">
+      <data key="d0">4.0</data>
+      <data key="d1">4720727278</data>
+    </node>
+    <node id="Uganda">
+      <data key="d0">4.5</data>
+      <data key="d1">34387229486</data>
+    </node>
+    <node id="Tanzania">
+      <data key="d0">6.1</data>
+      <data key="d1">63177068175</data>
+    </node>
+    <node id="Sri_Lanka">
+      <data key="d0">4.5</data>
+      <data key="d1">84008783756</data>
+    </node>
+    <node id="Thailand">
+      <data key="d0">5.2</data>
+      <data key="d1">543649976166</data>
+    </node>
+    <node id="Cameroon">
+      <data key="d0">4.9</data>
+      <data key="d1">38760467033</data>
+    </node>
+    <node id="Chad">
+      <data key="d0">3.4</data>
+      <data key="d1">11314951343</data>
+    </node>
+    <node id="Cape_Verde">
+      <data key="d0">5.0</data>
+      <data key="d1">1981845741</data>
+    </node>
+    <node id="Central_African_Republic">
+      <data key="d0">2.8</data>
+      <data key="d1">2220307369</data>
+    </node>
+    <node id="Nicaragua">
+      <data key="d0">3.3</data>
+      <data key="d1">12520915291</data>
+    </node>
+    <node id="Mongolia">
+      <data key="d0">5.2</data>
+      <data key="d1">13852850259</data>
+    </node>
+    <node id="Ecuador">
+      <data key="d0">5.6</data>
+      <data key="d1">107435665000</data>
+    </node>
+    <node id="Haiti">
+      <data key="d0">2.2</data>
+      <data key="d1">8498981821</data>
+    </node>
+    <node id="Comoros">
+      <data key="d0">4.0</data>
+      <data key="d1">1185728677</data>
+    </node>
+    <node id="Kenya">
+      <data key="d0">5.2</data>
+      <data key="d1">95503088538</data>
+    </node>
+    <node id="Madagascar">
+      <data key="d0">5.4</data>
+      <data key="d1">14083906357</data>
+    </node>
+    <node id="Mauritius">
+      <data key="d0">5.4</data>
+      <data key="d1">14180444557</data>
+    </node>
+    <node id="Costa_Rica">
+      <data key="d0">6.3</data>
+      <data key="d1">61773944174</data>
+    </node>
+    <node id="El_Salvador">
+      <data key="d0">3.9</data>
+      <data key="d1">27022640000</data>
+    </node>
+    <node id="Dominican_Republic">
+      <data key="d0">4.5</data>
+      <data key="d1">88941298258</data>
+    </node>
+    <node id="Ethiopia">
+      <data key="d0">4.5</data>
+      <data key="d1">96107662398</data>
+    </node>
+    <node id="Cyprus">
+      <data key="d0">4.8</data>
+      <data key="d1">24564647935</data>
+    </node>
+    <node id="Czech_Republic">
+      <data key="d0">5.7</data>
+      <data key="d1">246489245495</data>
+    </node>
+    <node id="Slovakia">
+      <data key="d0">5.2</data>
+      <data key="d1">105422304976</data>
+    </node>
+    <node id="South_Sudan">
+      <data key="d0">3.0</data>
+      <data key="d1">11997800751</data>
+    </node>
+    <node id="Togo">
+      <data key="d0">4.0</data>
+      <data key="d1">5459979417</data>
+    </node>
+    <node id="Estonia">
+      <data key="d0">5.2</data>
+      <data key="d1">31386949981</data>
+    </node>
+    <node id="Ghana">
+      <data key="d0">5.3</data>
+      <data key="d1">66983634224</data>
+    </node>
+    <node id="Djibouti">
+      <data key="d0">5.5</data>
+      <data key="d1">3318716359</data>
+    </node>
+    <node id="Eritrea">
+      <data key="d0">4.3</data>
+      <data key="d1">2065001626</data>
+    </node>
+    <node id="Yemen">
+      <data key="d0">2.8</data>
+      <data key="d1">26914402224</data>
+    </node>
+    <node id="Dominica">
+      <data key="d0">5.2</data>
+      <data key="d1">596033333</data>
+    </node>
+    <node id="Syria">
+      <data key="d0">4.1</data>
+      <data key="d1">40405006007</data>
+    </node>
+    <node id="Equatorial_Guinea">
+      <data key="d0">3.4</data>
+      <data key="d1">11026774945</data>
+    </node>
+    <node id="Liberia">
+      <data key="d0">3.5</data>
+      <data key="d1">3070518100</data>
+    </node>
+    <node id="Sierra_Leone">
+      <data key="d0">4.1</data>
+      <data key="d1">3941474311</data>
+    </node>
+    <node id="Finland">
+      <data key="d0">5.8</data>
+      <data key="d1">268761201365</data>
+    </node>
+    <node id="Latvia">
+      <data key="d0">5.2</data>
+      <data key="d1">34117202555</data>
+    </node>
+    <node id="Indonesia">
+      <data key="d0">5.2</data>
+      <data key="d1">1119190780753</data>
+    </node>
+    <node id="Samoa">
+      <data key="d0">5.5</data>
+      <data key="d1">850655017</data>
+    </node>
+    <node id="Solomon_Islands">
+      <data key="d0">4.9</data>
+      <data key="d1">1425074226</data>
+    </node>
+    <node id="Tonga">
+      <data key="d0">5.9</data>
+      <data key="d1">450353314</data>
+    </node>
+    <node id="Guinea-Bissau">
+      <data key="d0">3.2</data>
+      <data key="d1">1340389411</data>
+    </node>
+    <node id="Romania">
+      <data key="d0">4.8</data>
+      <data key="d1">250077444017</data>
+    </node>
+    <node id="Jordan">
+      <data key="d0">5.7</data>
+      <data key="d1">43743661972</data>
+    </node>
+    <node id="Turkmenistan">
+      <data key="d0">3.7</data>
+      <data key="d1">40761142857</data>
+    </node>
+    <node id="Kazakhstan">
+      <data key="d0">4.7</data>
+      <data key="d1">180161741180</data>
+    </node>
+    <node id="Zambia">
+      <data key="d0">5.5</data>
+      <data key="d1">23064722446</data>
+    </node>
+    <node id="Kiribati">
+      <data key="d0">4.7</data>
+      <data key="d1">194647202</data>
+    </node>
+    <node id="Nauru">
+      <data key="d0">5.8</data>
+      <data key="d1">133000000</data>
+    </node>
+    <node id="Tuvalu">
+      <data key="d0">6.4</data>
+      <data key="d1">47271463</data>
+    </node>
+    <node id="Kyrgyzstan">
+      <data key="d0">4.9</data>
+      <data key="d1">8454619608</data>
+    </node>
+    <node id="Tajikistan">
+      <data key="d0">3.8</data>
+      <data key="d1">8116626794</data>
+    </node>
+    <node id="Laos">
+      <data key="d0">4.0</data>
+      <data key="d1">18173839128</data>
+    </node>
+    <node id="United_Arab_Emirates">
+      <data key="d0">6.1</data>
+      <data key="d1">421142267938</data>
+    </node>
+    <node id="Malawi">
+      <data key="d0">5.1</data>
+      <data key="d1">7666704427</data>
+    </node>
+    <node id="Maldives">
+      <data key="d0">5.7</data>
+      <data key="d1">5729248472</data>
+    </node>
+    <node id="Marshall_Islands">
+      <data key="d0">4.9</data>
+      <data key="d1">221278000</data>
+    </node>
+    <node id="Micronesia">
+      <data key="d0">4.9</data>
+      <data key="d1">401932279</data>
+    </node>
+    <node id="Palau">
+      <data key="d0">5.7</data>
+      <data key="d1">283994900</data>
+    </node>
+    <node id="Seychelles">
+      <data key="d0">6.0</data>
+      <data key="d1">1698843063</data>
+    </node>
+    <node id="Vanuatu">
+      <data key="d0">4.3</data>
+      <data key="d1">917058851</data>
+    </node>
+    <node id="Monaco">
+      <data key="d0">6.3</data>
+      <data key="d1">7184844193</data>
+    </node>
+    <node id="Myanmar">
+      <data key="d0">3.7</data>
+      <data key="d1">76085852617</data>
+    </node>
+    <node id="Suriname">
+      <data key="d0">3.8</data>
+      <data key="d1">3985250737</data>
+    </node>
+    <node id="South_Korea">
+      <data key="d0">5.7</data>
+      <data key="d1">2029000000000</data>
+    </node>
+    <node id="North_Macedonia">
+      <data key="d0">4.5</data>
+      <data key="d1">10220781069</data>
+    </node>
+    <node id="Papua_New_Guinea">
+      <data key="d0">5.2</data>
+      <data key="d1">24969611435</data>
+    </node>
+    <node id="Saint_Kitts_and_Nevis">
+      <data key="d0">5.1</data>
+      <data key="d1">1050992593</data>
+    </node>
+    <node id="Saint_Lucia">
+      <data key="d0">5.2</data>
+      <data key="d1">2122450630</data>
+    </node>
+    <node id="Saint_Vincent_and_the_Grenadines">
+      <data key="d0">5.1</data>
+      <data key="d1">825385185</data>
+    </node>
+    <node id="San_Marino">
+      <data key="d0">6.9</data>
+      <data key="d1">1637931034</data>
+    </node>
+    <node id="The_Gambia">
+      <data key="d0">4.8</data>
+      <data key="d1">1763819048</data>
+    </node>
+    <node id="São_Tomé_and_Príncipe">
+      <data key="d0">4.5</data>
+      <data key="d1">429016605</data>
+    </node>
+    <node id="The_Bahamas">
+      <data key="d0">5.9</data>
+      <data key="d1">12827000000</data>
+    </node>
+    <node id="Timor-Leste">
+      <data key="d0">3.9</data>
+      <data key="d1">1673540300</data>
+    </node>
     <edge source="Afghanistan" target="China" />
     <edge source="Afghanistan" target="Egypt" />
     <edge source="Afghanistan" target="France" />
