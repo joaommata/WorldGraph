@@ -5,6 +5,7 @@
     <node id="China" />
     <node id="Egypt" />
     <node id="France" />
+    <node id="Germany" />
     <node id="India" />
     <node id="Iran" />
     <node id="Italy" />
@@ -17,7 +18,6 @@
     <node id="Albania" />
     <node id="Bosnia_and_Herzegovina" />
     <node id="Bulgaria" />
-    <node id="Germany" />
     <node id="Greece" />
     <node id="Ireland" />
     <node id="Montenegro" />
@@ -25,6 +25,8 @@
     <node id="Spain" />
     <node id="Algeria" />
     <node id="Iceland" />
+    <node id="Jordan" />
+    <node id="Lebanon" />
     <node id="Libya" />
     <node id="Mali" />
     <node id="Malta" />
@@ -32,24 +34,31 @@
     <node id="Morocco" />
     <node id="Netherlands" />
     <node id="Portugal" />
+    <node id="Syria" />
     <node id="Tunisia" />
+    <node id="Yemen" />
     <node id="Andorra" />
     <node id="Angola" />
     <node id="Brazil" />
     <node id="Republic_of_the_Congo" />
+    <node id="Cuba" />
     <node id="Democratic_Republic_of_the_Congo" />
     <node id="Gabon" />
+    <node id="Ghana" />
+    <node id="Guinea" />
+    <node id="Mozambique" />
     <node id="Niger" />
     <node id="Nigeria" />
+    <node id="South_Africa" />
     <node id="Zimbabwe" />
     <node id="Antigua_and_Barbuda" />
     <node id="Argentina" />
     <node id="Australia" />
     <node id="Belgium" />
+    <node id="Bolivia" />
     <node id="Canada" />
     <node id="Chile" />
     <node id="Colombia" />
-    <node id="Cuba" />
     <node id="Denmark" />
     <node id="Georgia" />
     <node id="Japan" />
@@ -62,7 +71,7 @@
     <node id="Armenia" />
     <node id="Azerbaijan" />
     <node id="Turkey" />
-    <node id="Guinea" />
+    <node id="Indonesia" />
     <node id="Iraq" />
     <node id="Singapore" />
     <node id="Vietnam" />
@@ -75,28 +84,31 @@
     <node id="Bahrain" />
     <node id="Israel" />
     <node id="Kuwait" />
-    <node id="Lebanon" />
     <node id="Oman" />
     <node id="Saudi_Arabia" />
     <node id="Bangladesh" />
     <node id="Barbados" />
     <node id="Grenada" />
     <node id="Guyana" />
+    <node id="Jamaica" />
     <node id="Trinidad_and_Tobago" />
     <node id="Belarus" />
     <node id="Lithuania" />
     <node id="Norway" />
     <node id="Ukraine" />
+    <node id="Burundi" />
+    <node id="Rwanda" />
     <node id="Belize" />
     <node id="Guatemala" />
     <node id="Honduras" />
-    <node id="Jamaica" />
     <node id="Mexico" />
     <node id="Benin" />
     <node id="North_Korea" />
     <node id="Bhutan" />
+    <node id="Maldives" />
     <node id="Nepal" />
-    <node id="Bolivia" />
+    <node id="Sri_Lanka" />
+    <node id="Ecuador" />
     <node id="Panama" />
     <node id="Croatia" />
     <node id="Sweden" />
@@ -104,8 +116,6 @@
     <node id="Eswatini" />
     <node id="Lesotho" />
     <node id="Namibia" />
-    <node id="South_Africa" />
-    <node id="Mozambique" />
     <node id="Uruguay" />
     <node id="Brunei" />
     <node id="Cambodia" />
@@ -115,20 +125,18 @@
     <node id="Ivory_Coast" />
     <node id="Senegal" />
     <node id="Sudan" />
-    <node id="Burundi" />
-    <node id="Rwanda" />
     <node id="Somalia" />
     <node id="Uganda" />
     <node id="Tanzania" />
-    <node id="Sri_Lanka" />
+    <node id="Laos" />
     <node id="Thailand" />
     <node id="Cameroon" />
     <node id="Chad" />
     <node id="Cape_Verde" />
+    <node id="Guinea-Bissau" />
     <node id="Central_African_Republic" />
     <node id="Nicaragua" />
     <node id="Mongolia" />
-    <node id="Ecuador" />
     <node id="Haiti" />
     <node id="Comoros" />
     <node id="Kenya" />
@@ -144,24 +152,20 @@
     <node id="South_Sudan" />
     <node id="Togo" />
     <node id="Estonia" />
-    <node id="Ghana" />
     <node id="Djibouti" />
     <node id="Eritrea" />
-    <node id="Yemen" />
     <node id="Dominica" />
-    <node id="Syria" />
     <node id="Equatorial_Guinea" />
     <node id="Liberia" />
     <node id="Sierra_Leone" />
     <node id="Finland" />
     <node id="Latvia" />
-    <node id="Indonesia" />
+    <node id="Romania" />
     <node id="Samoa" />
     <node id="Solomon_Islands" />
     <node id="Tonga" />
-    <node id="Guinea-Bissau" />
-    <node id="Romania" />
-    <node id="Jordan" />
+    <node id="North_Macedonia" />
+    <node id="Myanmar" />
     <node id="Turkmenistan" />
     <node id="Kazakhstan" />
     <node id="Zambia" />
@@ -170,20 +174,16 @@
     <node id="Tuvalu" />
     <node id="Kyrgyzstan" />
     <node id="Tajikistan" />
-    <node id="Laos" />
     <node id="United_Arab_Emirates" />
     <node id="Malawi" />
-    <node id="Maldives" />
     <node id="Marshall_Islands" />
     <node id="Micronesia" />
     <node id="Palau" />
     <node id="Seychelles" />
     <node id="Vanuatu" />
     <node id="Monaco" />
-    <node id="Myanmar" />
     <node id="Suriname" />
     <node id="South_Korea" />
-    <node id="North_Macedonia" />
     <node id="Papua_New_Guinea" />
     <node id="Saint_Kitts_and_Nevis" />
     <node id="Saint_Lucia" />
@@ -196,6 +196,7 @@
     <edge source="Afghanistan" target="China" />
     <edge source="Afghanistan" target="Egypt" />
     <edge source="Afghanistan" target="France" />
+    <edge source="Afghanistan" target="Germany" />
     <edge source="Afghanistan" target="India" />
     <edge source="Afghanistan" target="Iran" />
     <edge source="Afghanistan" target="Italy" />
@@ -206,8 +207,11 @@
     <edge source="Afghanistan" target="United_States" />
     <edge source="Afghanistan" target="Uzbekistan" />
     <edge source="China" target="France" />
+    <edge source="China" target="Germany" />
+    <edge source="China" target="India" />
     <edge source="China" target="Japan" />
     <edge source="China" target="Mongolia" />
+    <edge source="China" target="United_Kingdom" />
     <edge source="China" target="United_States" />
     <edge source="China" target="Vietnam" />
     <edge source="Egypt" target="France" />
@@ -225,11 +229,39 @@
     <edge source="France" target="India" />
     <edge source="France" target="Iraq" />
     <edge source="France" target="Italy" />
+    <edge source="France" target="Mexico" />
     <edge source="France" target="Russia" />
     <edge source="France" target="Spain" />
     <edge source="France" target="Switzerland" />
+    <edge source="Germany" target="Afghanistan" />
+    <edge source="Germany" target="Austria" />
+    <edge source="Germany" target="Belgium" />
+    <edge source="Germany" target="China" />
+    <edge source="Germany" target="Denmark" />
+    <edge source="Germany" target="France" />
+    <edge source="Germany" target="Greece" />
+    <edge source="Germany" target="Hungary" />
+    <edge source="Germany" target="Italy" />
+    <edge source="Germany" target="Luxembourg" />
+    <edge source="Germany" target="Namibia" />
+    <edge source="Germany" target="Netherlands" />
+    <edge source="Germany" target="Norway" />
+    <edge source="Germany" target="Poland" />
+    <edge source="Germany" target="Russia" />
+    <edge source="Germany" target="Serbia" />
+    <edge source="Germany" target="United_Kingdom" />
+    <edge source="Germany" target="United_States" />
+    <edge source="India" target="Brunei" />
+    <edge source="India" target="Cambodia" />
     <edge source="India" target="China" />
+    <edge source="India" target="Indonesia" />
+    <edge source="India" target="Laos" />
+    <edge source="India" target="Malaysia" />
+    <edge source="India" target="Myanmar" />
     <edge source="India" target="Pakistan" />
+    <edge source="India" target="Philippines" />
+    <edge source="India" target="Thailand" />
+    <edge source="India" target="Vietnam" />
     <edge source="Iran" target="Afghanistan" />
     <edge source="Iran" target="Armenia" />
     <edge source="Iran" target="Azerbaijan" />
@@ -277,6 +309,7 @@
     <edge source="Pakistan" target="United_States" />
     <edge source="Qatar" target="Bahrain" />
     <edge source="Qatar" target="Canada" />
+    <edge source="Qatar" target="China" />
     <edge source="Qatar" target="Egypt" />
     <edge source="Qatar" target="France" />
     <edge source="Qatar" target="India" />
@@ -289,6 +322,7 @@
     <edge source="Qatar" target="Portugal" />
     <edge source="Qatar" target="South_Korea" />
     <edge source="Qatar" target="Saudi_Arabia" />
+    <edge source="Qatar" target="Thailand" />
     <edge source="Qatar" target="United_Arab_Emirates" />
     <edge source="Qatar" target="United_Kingdom" />
     <edge source="Qatar" target="United_States" />
@@ -336,6 +370,7 @@
     <edge source="United_Kingdom" target="Spain" />
     <edge source="United_Kingdom" target="United_States" />
     <edge source="United_States" target="Afghanistan" />
+    <edge source="United_States" target="Canada" />
     <edge source="United_States" target="China" />
     <edge source="United_States" target="Denmark" />
     <edge source="United_States" target="France" />
@@ -361,6 +396,7 @@
     <edge source="Uzbekistan" target="United_Kingdom" />
     <edge source="Albania" target="Bosnia_and_Herzegovina" />
     <edge source="Albania" target="Bulgaria" />
+    <edge source="Albania" target="China" />
     <edge source="Albania" target="Egypt" />
     <edge source="Albania" target="Germany" />
     <edge source="Albania" target="Greece" />
@@ -373,12 +409,14 @@
     <edge source="Albania" target="United_Kingdom" />
     <edge source="Bosnia_and_Herzegovina" target="Austria" />
     <edge source="Bosnia_and_Herzegovina" target="Croatia" />
+    <edge source="Bosnia_and_Herzegovina" target="Germany" />
     <edge source="Bosnia_and_Herzegovina" target="Greece" />
     <edge source="Bosnia_and_Herzegovina" target="Hungary" />
     <edge source="Bosnia_and_Herzegovina" target="Montenegro" />
     <edge source="Bosnia_and_Herzegovina" target="Serbia" />
     <edge source="Bosnia_and_Herzegovina" target="Slovenia" />
     <edge source="Bosnia_and_Herzegovina" target="Sweden" />
+    <edge source="Bulgaria" target="Afghanistan" />
     <edge source="Bulgaria" target="Albania" />
     <edge source="Bulgaria" target="Austria" />
     <edge source="Bulgaria" target="Germany" />
@@ -387,31 +425,16 @@
     <edge source="Bulgaria" target="Serbia" />
     <edge source="Bulgaria" target="Turkey" />
     <edge source="Bulgaria" target="Ukraine" />
-    <edge source="Germany" target="Afghanistan" />
-    <edge source="Germany" target="Austria" />
-    <edge source="Germany" target="Belgium" />
-    <edge source="Germany" target="China" />
-    <edge source="Germany" target="Denmark" />
-    <edge source="Germany" target="France" />
-    <edge source="Germany" target="Greece" />
-    <edge source="Germany" target="Hungary" />
-    <edge source="Germany" target="Italy" />
-    <edge source="Germany" target="Luxembourg" />
-    <edge source="Germany" target="Namibia" />
-    <edge source="Germany" target="Netherlands" />
-    <edge source="Germany" target="Norway" />
-    <edge source="Germany" target="Poland" />
-    <edge source="Germany" target="Russia" />
-    <edge source="Germany" target="United_Kingdom" />
-    <edge source="Germany" target="United_States" />
     <edge source="Greece" target="Albania" />
     <edge source="Greece" target="Bulgaria" />
     <edge source="Greece" target="Cyprus" />
+    <edge source="Greece" target="Denmark" />
     <edge source="Greece" target="Egypt" />
     <edge source="Greece" target="France" />
     <edge source="Greece" target="Germany" />
     <edge source="Greece" target="Iran" />
     <edge source="Greece" target="Italy" />
+    <edge source="Greece" target="North_Macedonia" />
     <edge source="Greece" target="Russia" />
     <edge source="Greece" target="Syria" />
     <edge source="Greece" target="Turkey" />
@@ -423,8 +446,10 @@
     <edge source="Ireland" target="United_Kingdom" />
     <edge source="Ireland" target="United_States" />
     <edge source="Montenegro" target="Albania" />
+    <edge source="Montenegro" target="Austria" />
     <edge source="Montenegro" target="Croatia" />
     <edge source="Montenegro" target="Germany" />
+    <edge source="Montenegro" target="Hungary" />
     <edge source="Montenegro" target="Italy" />
     <edge source="Montenegro" target="Russia" />
     <edge source="Montenegro" target="Serbia" />
@@ -452,10 +477,13 @@
     <edge source="Spain" target="Portugal" />
     <edge source="Spain" target="Russia" />
     <edge source="Spain" target="United_States" />
+    <edge source="Algeria" target="Egypt" />
     <edge source="Algeria" target="France" />
     <edge source="Algeria" target="Iceland" />
     <edge source="Algeria" target="Ireland" />
     <edge source="Algeria" target="Italy" />
+    <edge source="Algeria" target="Jordan" />
+    <edge source="Algeria" target="Lebanon" />
     <edge source="Algeria" target="Libya" />
     <edge source="Algeria" target="Mali" />
     <edge source="Algeria" target="Malta" />
@@ -464,9 +492,11 @@
     <edge source="Algeria" target="Netherlands" />
     <edge source="Algeria" target="Portugal" />
     <edge source="Algeria" target="Spain" />
+    <edge source="Algeria" target="Syria" />
     <edge source="Algeria" target="Tunisia" />
     <edge source="Algeria" target="United_Kingdom" />
     <edge source="Algeria" target="United_States" />
+    <edge source="Algeria" target="Yemen" />
     <edge source="Iceland" target="Canada" />
     <edge source="Iceland" target="Denmark" />
     <edge source="Iceland" target="Estonia" />
@@ -478,6 +508,27 @@
     <edge source="Iceland" target="Panama" />
     <edge source="Iceland" target="United_Kingdom" />
     <edge source="Iceland" target="United_States" />
+    <edge source="Jordan" target="Egypt" />
+    <edge source="Jordan" target="France" />
+    <edge source="Jordan" target="Iraq" />
+    <edge source="Jordan" target="Israel" />
+    <edge source="Jordan" target="Lebanon" />
+    <edge source="Jordan" target="Saudi_Arabia" />
+    <edge source="Jordan" target="Syria" />
+    <edge source="Lebanon" target="France" />
+    <edge source="Lebanon" target="Germany" />
+    <edge source="Lebanon" target="Iran" />
+    <edge source="Lebanon" target="Iraq" />
+    <edge source="Lebanon" target="Israel" />
+    <edge source="Lebanon" target="Italy" />
+    <edge source="Lebanon" target="Jordan" />
+    <edge source="Lebanon" target="Spain" />
+    <edge source="Lebanon" target="Switzerland" />
+    <edge source="Lebanon" target="Syria" />
+    <edge source="Lebanon" target="Tunisia" />
+    <edge source="Lebanon" target="United_Kingdom" />
+    <edge source="Lebanon" target="United_States" />
+    <edge source="Libya" target="Australia" />
     <edge source="Libya" target="Brazil" />
     <edge source="Libya" target="Chad" />
     <edge source="Libya" target="China" />
@@ -489,6 +540,8 @@
     <edge source="Libya" target="Morocco" />
     <edge source="Libya" target="Russia" />
     <edge source="Libya" target="Saudi_Arabia" />
+    <edge source="Libya" target="Spain" />
+    <edge source="Libya" target="Sudan" />
     <edge source="Libya" target="Tunisia" />
     <edge source="Libya" target="Turkey" />
     <edge source="Libya" target="Uganda" />
@@ -497,10 +550,13 @@
     <edge source="Libya" target="United_Kingdom" />
     <edge source="Libya" target="Tanzania" />
     <edge source="Libya" target="United_States" />
+    <edge source="Mali" target="Algeria" />
     <edge source="Mali" target="Burkina_Faso" />
     <edge source="Mali" target="Ivory_Coast" />
     <edge source="Mali" target="France" />
+    <edge source="Mali" target="Ghana" />
     <edge source="Mali" target="Guinea" />
+    <edge source="Mali" target="Libya" />
     <edge source="Mali" target="Mauritania" />
     <edge source="Mali" target="Morocco" />
     <edge source="Mali" target="Niger" />
@@ -510,7 +566,9 @@
     <edge source="Malta" target="Egypt" />
     <edge source="Malta" target="France" />
     <edge source="Malta" target="India" />
+    <edge source="Malta" target="Ireland" />
     <edge source="Malta" target="Singapore" />
+    <edge source="Malta" target="United_Kingdom" />
     <edge source="Mauritania" target="Algeria" />
     <edge source="Mauritania" target="Egypt" />
     <edge source="Mauritania" target="France" />
@@ -570,6 +628,22 @@
     <edge source="Portugal" target="Spain" />
     <edge source="Portugal" target="Syria" />
     <edge source="Portugal" target="United_Kingdom" />
+    <edge source="Syria" target="China" />
+    <edge source="Syria" target="North_Korea" />
+    <edge source="Syria" target="Egypt" />
+    <edge source="Syria" target="France" />
+    <edge source="Syria" target="Iran" />
+    <edge source="Syria" target="Iraq" />
+    <edge source="Syria" target="Israel" />
+    <edge source="Syria" target="Jordan" />
+    <edge source="Syria" target="Lebanon" />
+    <edge source="Syria" target="Malta" />
+    <edge source="Syria" target="Morocco" />
+    <edge source="Syria" target="Russia" />
+    <edge source="Syria" target="Senegal" />
+    <edge source="Syria" target="Turkey" />
+    <edge source="Syria" target="United_Kingdom" />
+    <edge source="Syria" target="United_States" />
     <edge source="Tunisia" target="Algeria" />
     <edge source="Tunisia" target="Egypt" />
     <edge source="Tunisia" target="France" />
@@ -579,20 +653,50 @@
     <edge source="Tunisia" target="Libya" />
     <edge source="Tunisia" target="Monaco" />
     <edge source="Tunisia" target="Spain" />
+    <edge source="Tunisia" target="United_States" />
+    <edge source="Yemen" target="Bahrain" />
+    <edge source="Yemen" target="Egypt" />
+    <edge source="Yemen" target="Ethiopia" />
+    <edge source="Yemen" target="India" />
+    <edge source="Yemen" target="Iran" />
+    <edge source="Yemen" target="Iraq" />
+    <edge source="Yemen" target="Israel" />
+    <edge source="Yemen" target="Italy" />
+    <edge source="Yemen" target="Jordan" />
+    <edge source="Yemen" target="Kuwait" />
+    <edge source="Yemen" target="Morocco" />
+    <edge source="Yemen" target="Pakistan" />
+    <edge source="Yemen" target="Portugal" />
+    <edge source="Yemen" target="Qatar" />
+    <edge source="Yemen" target="Saudi_Arabia" />
+    <edge source="Yemen" target="Sudan" />
+    <edge source="Yemen" target="Syria" />
+    <edge source="Yemen" target="United_Arab_Emirates" />
+    <edge source="Yemen" target="United_Kingdom" />
+    <edge source="Yemen" target="United_States" />
     <edge source="Andorra" target="France" />
     <edge source="Andorra" target="Germany" />
     <edge source="Andorra" target="Portugal" />
     <edge source="Andorra" target="Spain" />
     <edge source="Andorra" target="United_States" />
     <edge source="Angola" target="Brazil" />
+    <edge source="Angola" target="China" />
     <edge source="Angola" target="Republic_of_the_Congo" />
+    <edge source="Angola" target="Cuba" />
     <edge source="Angola" target="Democratic_Republic_of_the_Congo" />
     <edge source="Angola" target="Gabon" />
+    <edge source="Angola" target="Ghana" />
+    <edge source="Angola" target="Guinea" />
     <edge source="Angola" target="India" />
+    <edge source="Angola" target="Mali" />
+    <edge source="Angola" target="Morocco" />
+    <edge source="Angola" target="Mozambique" />
     <edge source="Angola" target="Niger" />
     <edge source="Angola" target="Nigeria" />
     <edge source="Angola" target="Portugal" />
+    <edge source="Angola" target="South_Africa" />
     <edge source="Angola" target="Spain" />
+    <edge source="Angola" target="United_States" />
     <edge source="Angola" target="Zimbabwe" />
     <edge source="Brazil" target="Angola" />
     <edge source="Brazil" target="France" />
@@ -606,11 +710,44 @@
     <edge source="Republic_of_the_Congo" target="Angola" />
     <edge source="Republic_of_the_Congo" target="Central_African_Republic" />
     <edge source="Republic_of_the_Congo" target="Chad" />
+    <edge source="Republic_of_the_Congo" target="China" />
     <edge source="Republic_of_the_Congo" target="Cuba" />
+    <edge source="Republic_of_the_Congo" target="North_Korea" />
     <edge source="Republic_of_the_Congo" target="Democratic_Republic_of_the_Congo" />
     <edge source="Republic_of_the_Congo" target="France" />
     <edge source="Republic_of_the_Congo" target="Gabon" />
     <edge source="Republic_of_the_Congo" target="Portugal" />
+    <edge source="Republic_of_the_Congo" target="Vietnam" />
+    <edge source="Cuba" target="Algeria" />
+    <edge source="Cuba" target="Angola" />
+    <edge source="Cuba" target="Bolivia" />
+    <edge source="Cuba" target="Cape_Verde" />
+    <edge source="Cuba" target="Canada" />
+    <edge source="Cuba" target="China" />
+    <edge source="Cuba" target="Colombia" />
+    <edge source="Cuba" target="Republic_of_the_Congo" />
+    <edge source="Cuba" target="Dominican_Republic" />
+    <edge source="Cuba" target="El_Salvador" />
+    <edge source="Cuba" target="Ethiopia" />
+    <edge source="Cuba" target="France" />
+    <edge source="Cuba" target="Grenada" />
+    <edge source="Cuba" target="Guatemala" />
+    <edge source="Cuba" target="Guinea" />
+    <edge source="Cuba" target="Guinea-Bissau" />
+    <edge source="Cuba" target="Iran" />
+    <edge source="Cuba" target="Iraq" />
+    <edge source="Cuba" target="Mexico" />
+    <edge source="Cuba" target="Morocco" />
+    <edge source="Cuba" target="Mozambique" />
+    <edge source="Cuba" target="Nicaragua" />
+    <edge source="Cuba" target="Philippines" />
+    <edge source="Cuba" target="South_Africa" />
+    <edge source="Cuba" target="Spain" />
+    <edge source="Cuba" target="Switzerland" />
+    <edge source="Cuba" target="United_States" />
+    <edge source="Cuba" target="Venezuela" />
+    <edge source="Cuba" target="Vietnam" />
+    <edge source="Cuba" target="Yemen" />
     <edge source="Democratic_Republic_of_the_Congo" target="Angola" />
     <edge source="Democratic_Republic_of_the_Congo" target="Belgium" />
     <edge source="Democratic_Republic_of_the_Congo" target="Burundi" />
@@ -633,13 +770,55 @@
     <edge source="Gabon" target="France" />
     <edge source="Gabon" target="Guinea" />
     <edge source="Gabon" target="Togo" />
+    <edge source="Ghana" target="Benin" />
+    <edge source="Ghana" target="China" />
+    <edge source="Ghana" target="Denmark" />
+    <edge source="Ghana" target="Guinea" />
+    <edge source="Ghana" target="Nigeria" />
+    <edge source="Ghana" target="Norway" />
+    <edge source="Ghana" target="Portugal" />
+    <edge source="Ghana" target="Togo" />
+    <edge source="Ghana" target="United_States" />
+    <edge source="Ghana" target="Vietnam" />
+    <edge source="Guinea" target="Algeria" />
+    <edge source="Guinea" target="Burkina_Faso" />
+    <edge source="Guinea" target="China" />
+    <edge source="Guinea" target="Ivory_Coast" />
+    <edge source="Guinea" target="France" />
+    <edge source="Guinea" target="Ghana" />
+    <edge source="Guinea" target="Guinea-Bissau" />
+    <edge source="Guinea" target="Lebanon" />
+    <edge source="Guinea" target="Liberia" />
+    <edge source="Guinea" target="Mali" />
+    <edge source="Guinea" target="Morocco" />
+    <edge source="Guinea" target="Sierra_Leone" />
+    <edge source="Guinea" target="United_States" />
+    <edge source="Mozambique" target="Angola" />
+    <edge source="Mozambique" target="Brazil" />
+    <edge source="Mozambique" target="Cuba" />
+    <edge source="Mozambique" target="Guinea" />
+    <edge source="Mozambique" target="India" />
+    <edge source="Mozambique" target="Kenya" />
+    <edge source="Mozambique" target="Madagascar" />
+    <edge source="Mozambique" target="Malawi" />
+    <edge source="Mozambique" target="Oman" />
+    <edge source="Mozambique" target="Portugal" />
+    <edge source="Mozambique" target="South_Africa" />
+    <edge source="Mozambique" target="Zambia" />
+    <edge source="Mozambique" target="Zimbabwe" />
+    <edge source="Niger" target="Algeria" />
+    <edge source="Niger" target="Benin" />
     <edge source="Niger" target="Burkina_Faso" />
+    <edge source="Niger" target="Cameroon" />
     <edge source="Niger" target="Chad" />
     <edge source="Niger" target="France" />
+    <edge source="Niger" target="Germany" />
+    <edge source="Niger" target="Ghana" />
     <edge source="Niger" target="Guinea" />
     <edge source="Niger" target="Mali" />
     <edge source="Niger" target="Morocco" />
     <edge source="Niger" target="Nigeria" />
+    <edge source="Niger" target="Senegal" />
     <edge source="Nigeria" target="Benin" />
     <edge source="Nigeria" target="Cameroon" />
     <edge source="Nigeria" target="Republic_of_the_Congo" />
@@ -650,6 +829,30 @@
     <edge source="Nigeria" target="Sudan" />
     <edge source="Nigeria" target="Togo" />
     <edge source="Nigeria" target="United_Kingdom" />
+    <edge source="South_Africa" target="Botswana" />
+    <edge source="South_Africa" target="Burundi" />
+    <edge source="South_Africa" target="Canada" />
+    <edge source="South_Africa" target="Republic_of_the_Congo" />
+    <edge source="South_Africa" target="Democratic_Republic_of_the_Congo" />
+    <edge source="South_Africa" target="Egypt" />
+    <edge source="South_Africa" target="Eritrea" />
+    <edge source="South_Africa" target="Ethiopia" />
+    <edge source="South_Africa" target="France" />
+    <edge source="South_Africa" target="India" />
+    <edge source="South_Africa" target="Indonesia" />
+    <edge source="South_Africa" target="Israel" />
+    <edge source="South_Africa" target="Liberia" />
+    <edge source="South_Africa" target="Madagascar" />
+    <edge source="South_Africa" target="Namibia" />
+    <edge source="South_Africa" target="Portugal" />
+    <edge source="South_Africa" target="Russia" />
+    <edge source="South_Africa" target="Rwanda" />
+    <edge source="South_Africa" target="Somalia" />
+    <edge source="South_Africa" target="Ukraine" />
+    <edge source="South_Africa" target="United_Kingdom" />
+    <edge source="South_Africa" target="Zimbabwe" />
+    <edge source="Zimbabwe" target="China" />
+    <edge source="Zimbabwe" target="Cuba" />
     <edge source="Zimbabwe" target="Malawi" />
     <edge source="Zimbabwe" target="Mozambique" />
     <edge source="Zimbabwe" target="Portugal" />
@@ -662,6 +865,7 @@
     <edge source="Antigua_and_Barbuda" target="United_Kingdom" />
     <edge source="Argentina" target="Australia" />
     <edge source="Argentina" target="Belgium" />
+    <edge source="Argentina" target="Bolivia" />
     <edge source="Argentina" target="Brazil" />
     <edge source="Argentina" target="Canada" />
     <edge source="Argentina" target="Chile" />
@@ -686,6 +890,7 @@
     <edge source="Australia" target="China" />
     <edge source="Australia" target="Guinea" />
     <edge source="Australia" target="India" />
+    <edge source="Australia" target="Indonesia" />
     <edge source="Australia" target="Iraq" />
     <edge source="Australia" target="New_Zealand" />
     <edge source="Australia" target="Singapore" />
@@ -693,19 +898,35 @@
     <edge source="Australia" target="United_States" />
     <edge source="Australia" target="Vietnam" />
     <edge source="Belgium" target="Austria" />
+    <edge source="Belgium" target="Burundi" />
     <edge source="Belgium" target="France" />
     <edge source="Belgium" target="Germany" />
     <edge source="Belgium" target="Luxembourg" />
     <edge source="Belgium" target="Netherlands" />
+    <edge source="Belgium" target="Rwanda" />
     <edge source="Belgium" target="Spain" />
     <edge source="Belgium" target="United_Kingdom" />
+    <edge source="Bolivia" target="Argentina" />
+    <edge source="Bolivia" target="Brazil" />
+    <edge source="Bolivia" target="Chile" />
+    <edge source="Bolivia" target="Ecuador" />
+    <edge source="Bolivia" target="Germany" />
+    <edge source="Bolivia" target="Italy" />
+    <edge source="Bolivia" target="Japan" />
+    <edge source="Bolivia" target="Panama" />
+    <edge source="Bolivia" target="Paraguay" />
+    <edge source="Bolivia" target="Peru" />
+    <edge source="Bolivia" target="Spain" />
+    <edge source="Bolivia" target="United_States" />
     <edge source="Canada" target="Afghanistan" />
     <edge source="Canada" target="France" />
     <edge source="Canada" target="Germany" />
+    <edge source="Canada" target="India" />
     <edge source="Canada" target="Iraq" />
     <edge source="Canada" target="Ireland" />
     <edge source="Canada" target="Italy" />
     <edge source="Canada" target="Mexico" />
+    <edge source="Canada" target="Netherlands" />
     <edge source="Canada" target="Somalia" />
     <edge source="Canada" target="Spain" />
     <edge source="Canada" target="United_Kingdom" />
@@ -716,6 +937,7 @@
     <edge source="Chile" target="Nicaragua" />
     <edge source="Chile" target="Panama" />
     <edge source="Chile" target="Peru" />
+    <edge source="Chile" target="Philippines" />
     <edge source="Chile" target="Spain" />
     <edge source="Chile" target="United_States" />
     <edge source="Colombia" target="Brazil" />
@@ -729,29 +951,10 @@
     <edge source="Colombia" target="Nicaragua" />
     <edge source="Colombia" target="Panama" />
     <edge source="Colombia" target="Peru" />
+    <edge source="Colombia" target="Philippines" />
     <edge source="Colombia" target="Spain" />
     <edge source="Colombia" target="United_States" />
     <edge source="Colombia" target="Venezuela" />
-    <edge source="Cuba" target="Algeria" />
-    <edge source="Cuba" target="Angola" />
-    <edge source="Cuba" target="Bolivia" />
-    <edge source="Cuba" target="Canada" />
-    <edge source="Cuba" target="Colombia" />
-    <edge source="Cuba" target="Republic_of_the_Congo" />
-    <edge source="Cuba" target="Dominican_Republic" />
-    <edge source="Cuba" target="El_Salvador" />
-    <edge source="Cuba" target="Ethiopia" />
-    <edge source="Cuba" target="France" />
-    <edge source="Cuba" target="Grenada" />
-    <edge source="Cuba" target="Guatemala" />
-    <edge source="Cuba" target="Mexico" />
-    <edge source="Cuba" target="Morocco" />
-    <edge source="Cuba" target="Nicaragua" />
-    <edge source="Cuba" target="Philippines" />
-    <edge source="Cuba" target="South_Africa" />
-    <edge source="Cuba" target="Spain" />
-    <edge source="Cuba" target="United_States" />
-    <edge source="Cuba" target="Vietnam" />
     <edge source="Denmark" target="Canada" />
     <edge source="Denmark" target="Estonia" />
     <edge source="Denmark" target="France" />
@@ -774,6 +977,7 @@
     <edge source="Japan" target="Singapore" />
     <edge source="Japan" target="United_States" />
     <edge source="New_Zealand" target="Fiji" />
+    <edge source="New_Zealand" target="Ireland" />
     <edge source="New_Zealand" target="Samoa" />
     <edge source="New_Zealand" target="United_Kingdom" />
     <edge source="Paraguay" target="Argentina" />
@@ -783,12 +987,14 @@
     <edge source="Paraguay" target="Uruguay" />
     <edge source="Peru" target="Argentina" />
     <edge source="Peru" target="Bolivia" />
+    <edge source="Peru" target="Brazil" />
     <edge source="Peru" target="Chile" />
     <edge source="Peru" target="Colombia" />
     <edge source="Peru" target="Ecuador" />
     <edge source="Peru" target="Mexico" />
     <edge source="Peru" target="Panama" />
     <edge source="Peru" target="Philippines" />
+    <edge source="Peru" target="Portugal" />
     <edge source="Peru" target="Spain" />
     <edge source="Peru" target="United_States" />
     <edge source="Philippines" target="China" />
@@ -797,7 +1003,11 @@
     <edge source="Philippines" target="Netherlands" />
     <edge source="Philippines" target="Spain" />
     <edge source="Philippines" target="United_States" />
+    <edge source="Switzerland" target="Austria" />
+    <edge source="Switzerland" target="France" />
     <edge source="Switzerland" target="Germany" />
+    <edge source="Switzerland" target="Liechtenstein" />
+    <edge source="Switzerland" target="United_States" />
     <edge source="Venezuela" target="Argentina" />
     <edge source="Venezuela" target="Bolivia" />
     <edge source="Venezuela" target="Brazil" />
@@ -811,6 +1021,7 @@
     <edge source="Venezuela" target="Italy" />
     <edge source="Venezuela" target="Netherlands" />
     <edge source="Venezuela" target="Spain" />
+    <edge source="Venezuela" target="United_States" />
     <edge source="Armenia" target="Albania" />
     <edge source="Armenia" target="Azerbaijan" />
     <edge source="Armenia" target="Georgia" />
@@ -833,30 +1044,33 @@
     <edge source="Turkey" target="Jordan" />
     <edge source="Turkey" target="Spain" />
     <edge source="Turkey" target="Syria" />
-    <edge source="Guinea" target="Burkina_Faso" />
-    <edge source="Guinea" target="China" />
-    <edge source="Guinea" target="Ivory_Coast" />
-    <edge source="Guinea" target="France" />
-    <edge source="Guinea" target="Ghana" />
-    <edge source="Guinea" target="Lebanon" />
-    <edge source="Guinea" target="Liberia" />
-    <edge source="Guinea" target="Mali" />
-    <edge source="Guinea" target="Morocco" />
-    <edge source="Guinea" target="Sierra_Leone" />
-    <edge source="Guinea" target="United_States" />
+    <edge source="Turkey" target="United_States" />
+    <edge source="Indonesia" target="China" />
+    <edge source="Indonesia" target="Guinea" />
+    <edge source="Indonesia" target="India" />
+    <edge source="Indonesia" target="Japan" />
+    <edge source="Indonesia" target="Netherlands" />
     <edge source="Iraq" target="Egypt" />
+    <edge source="Iraq" target="France" />
     <edge source="Iraq" target="Georgia" />
     <edge source="Iraq" target="Iran" />
     <edge source="Iraq" target="Israel" />
     <edge source="Iraq" target="Japan" />
+    <edge source="Iraq" target="Jordan" />
+    <edge source="Iraq" target="Kuwait" />
+    <edge source="Iraq" target="Lebanon" />
+    <edge source="Iraq" target="Saudi_Arabia" />
     <edge source="Iraq" target="Syria" />
+    <edge source="Iraq" target="Turkey" />
     <edge source="Iraq" target="United_Kingdom" />
+    <edge source="Iraq" target="United_States" />
     <edge source="Singapore" target="Brunei" />
     <edge source="Singapore" target="India" />
     <edge source="Singapore" target="Indonesia" />
     <edge source="Singapore" target="Ireland" />
     <edge source="Singapore" target="Japan" />
     <edge source="Singapore" target="Malaysia" />
+    <edge source="Singapore" target="Philippines" />
     <edge source="Singapore" target="United_Kingdom" />
     <edge source="Singapore" target="United_States" />
     <edge source="Vietnam" target="Australia" />
@@ -910,6 +1124,7 @@
     <edge source="Liechtenstein" target="Czech_Republic" />
     <edge source="Liechtenstein" target="France" />
     <edge source="Liechtenstein" target="Germany" />
+    <edge source="Liechtenstein" target="Hungary" />
     <edge source="Liechtenstein" target="Poland" />
     <edge source="Liechtenstein" target="Slovakia" />
     <edge source="Liechtenstein" target="Switzerland" />
@@ -931,6 +1146,7 @@
     <edge source="Poland" target="Germany" />
     <edge source="Poland" target="Hungary" />
     <edge source="Poland" target="Lithuania" />
+    <edge source="Poland" target="Netherlands" />
     <edge source="Poland" target="Russia" />
     <edge source="Poland" target="Sweden" />
     <edge source="Poland" target="Ukraine" />
@@ -979,26 +1195,16 @@
     <edge source="Israel" target="Yemen" />
     <edge source="Kuwait" target="China" />
     <edge source="Kuwait" target="Egypt" />
+    <edge source="Kuwait" target="Germany" />
     <edge source="Kuwait" target="Greece" />
     <edge source="Kuwait" target="India" />
     <edge source="Kuwait" target="Iran" />
     <edge source="Kuwait" target="Iraq" />
     <edge source="Kuwait" target="Ireland" />
+    <edge source="Kuwait" target="Israel" />
+    <edge source="Kuwait" target="Saudi_Arabia" />
     <edge source="Kuwait" target="United_Kingdom" />
     <edge source="Kuwait" target="United_States" />
-    <edge source="Lebanon" target="France" />
-    <edge source="Lebanon" target="Germany" />
-    <edge source="Lebanon" target="Iran" />
-    <edge source="Lebanon" target="Iraq" />
-    <edge source="Lebanon" target="Israel" />
-    <edge source="Lebanon" target="Italy" />
-    <edge source="Lebanon" target="Jordan" />
-    <edge source="Lebanon" target="Spain" />
-    <edge source="Lebanon" target="Switzerland" />
-    <edge source="Lebanon" target="Syria" />
-    <edge source="Lebanon" target="Tunisia" />
-    <edge source="Lebanon" target="United_Kingdom" />
-    <edge source="Lebanon" target="United_States" />
     <edge source="Oman" target="Bahrain" />
     <edge source="Oman" target="Germany" />
     <edge source="Oman" target="India" />
@@ -1011,32 +1217,43 @@
     <edge source="Oman" target="Saudi_Arabia" />
     <edge source="Oman" target="United_Arab_Emirates" />
     <edge source="Oman" target="United_Kingdom" />
+    <edge source="Oman" target="United_States" />
     <edge source="Oman" target="Yemen" />
     <edge source="Saudi_Arabia" target="Bahrain" />
     <edge source="Saudi_Arabia" target="Egypt" />
+    <edge source="Saudi_Arabia" target="Iran" />
     <edge source="Saudi_Arabia" target="Iraq" />
     <edge source="Saudi_Arabia" target="Ireland" />
     <edge source="Saudi_Arabia" target="Israel" />
+    <edge source="Saudi_Arabia" target="Jordan" />
     <edge source="Saudi_Arabia" target="Kuwait" />
     <edge source="Saudi_Arabia" target="Oman" />
     <edge source="Saudi_Arabia" target="Syria" />
     <edge source="Saudi_Arabia" target="United_Kingdom" />
     <edge source="Saudi_Arabia" target="United_States" />
+    <edge source="Saudi_Arabia" target="Yemen" />
     <edge source="Bangladesh" target="China" />
     <edge source="Bangladesh" target="India" />
     <edge source="Bangladesh" target="Pakistan" />
     <edge source="Barbados" target="Brazil" />
     <edge source="Barbados" target="Grenada" />
     <edge source="Barbados" target="Guyana" />
+    <edge source="Barbados" target="India" />
     <edge source="Barbados" target="Ireland" />
+    <edge source="Barbados" target="Jamaica" />
+    <edge source="Barbados" target="Netherlands" />
+    <edge source="Barbados" target="Portugal" />
     <edge source="Barbados" target="Trinidad_and_Tobago" />
+    <edge source="Barbados" target="United_Kingdom" />
     <edge source="Barbados" target="United_States" />
     <edge source="Grenada" target="Barbados" />
     <edge source="Grenada" target="Canada" />
     <edge source="Grenada" target="Cuba" />
     <edge source="Grenada" target="Dominica" />
+    <edge source="Grenada" target="Germany" />
     <edge source="Grenada" target="India" />
     <edge source="Grenada" target="Jamaica" />
+    <edge source="Grenada" target="Nicaragua" />
     <edge source="Grenada" target="Spain" />
     <edge source="Grenada" target="Trinidad_and_Tobago" />
     <edge source="Grenada" target="United_States" />
@@ -1045,12 +1262,25 @@
     <edge source="Guyana" target="Spain" />
     <edge source="Guyana" target="United_Kingdom" />
     <edge source="Guyana" target="Venezuela" />
+    <edge source="Jamaica" target="Cuba" />
+    <edge source="Jamaica" target="Ethiopia" />
+    <edge source="Jamaica" target="Grenada" />
+    <edge source="Jamaica" target="India" />
+    <edge source="Jamaica" target="Ireland" />
+    <edge source="Jamaica" target="Sierra_Leone" />
+    <edge source="Jamaica" target="South_Africa" />
+    <edge source="Jamaica" target="Spain" />
+    <edge source="Jamaica" target="United_Kingdom" />
+    <edge source="Jamaica" target="United_States" />
     <edge source="Trinidad_and_Tobago" target="Cuba" />
     <edge source="Trinidad_and_Tobago" target="Dominica" />
+    <edge source="Trinidad_and_Tobago" target="France" />
     <edge source="Trinidad_and_Tobago" target="Grenada" />
     <edge source="Trinidad_and_Tobago" target="India" />
     <edge source="Trinidad_and_Tobago" target="Jamaica" />
+    <edge source="Trinidad_and_Tobago" target="Latvia" />
     <edge source="Trinidad_and_Tobago" target="Mexico" />
+    <edge source="Trinidad_and_Tobago" target="Netherlands" />
     <edge source="Trinidad_and_Tobago" target="Saint_Lucia" />
     <edge source="Trinidad_and_Tobago" target="Spain" />
     <edge source="Trinidad_and_Tobago" target="United_Kingdom" />
@@ -1066,9 +1296,12 @@
     <edge source="Belarus" target="Ukraine" />
     <edge source="Belarus" target="United_Kingdom" />
     <edge source="Belarus" target="United_States" />
+    <edge source="Lithuania" target="Croatia" />
     <edge source="Lithuania" target="Germany" />
+    <edge source="Lithuania" target="Hungary" />
     <edge source="Lithuania" target="Poland" />
     <edge source="Lithuania" target="Russia" />
+    <edge source="Lithuania" target="Sweden" />
     <edge source="Lithuania" target="Ukraine" />
     <edge source="Norway" target="Canada" />
     <edge source="Norway" target="Denmark" />
@@ -1094,10 +1327,33 @@
     <edge source="Ukraine" target="Russia" />
     <edge source="Ukraine" target="Sweden" />
     <edge source="Ukraine" target="United_States" />
+    <edge source="Burundi" target="Belgium" />
+    <edge source="Burundi" target="Botswana" />
+    <edge source="Burundi" target="China" />
+    <edge source="Burundi" target="Republic_of_the_Congo" />
+    <edge source="Burundi" target="Democratic_Republic_of_the_Congo" />
+    <edge source="Burundi" target="Eswatini" />
+    <edge source="Burundi" target="France" />
+    <edge source="Burundi" target="Germany" />
+    <edge source="Burundi" target="Lesotho" />
+    <edge source="Burundi" target="Rwanda" />
+    <edge source="Burundi" target="Somalia" />
+    <edge source="Burundi" target="South_Africa" />
+    <edge source="Burundi" target="Uganda" />
+    <edge source="Burundi" target="Ukraine" />
+    <edge source="Burundi" target="Tanzania" />
+    <edge source="Burundi" target="United_States" />
+    <edge source="Rwanda" target="Belgium" />
+    <edge source="Rwanda" target="Burundi" />
+    <edge source="Rwanda" target="Republic_of_the_Congo" />
+    <edge source="Rwanda" target="Democratic_Republic_of_the_Congo" />
+    <edge source="Rwanda" target="Germany" />
+    <edge source="Rwanda" target="Uganda" />
     <edge source="Belize" target="Guatemala" />
     <edge source="Belize" target="Honduras" />
     <edge source="Belize" target="Jamaica" />
     <edge source="Belize" target="Mexico" />
+    <edge source="Belize" target="Spain" />
     <edge source="Belize" target="United_Kingdom" />
     <edge source="Guatemala" target="Belgium" />
     <edge source="Guatemala" target="Belize" />
@@ -1118,6 +1374,7 @@
     <edge source="Guatemala" target="Spain" />
     <edge source="Guatemala" target="United_States" />
     <edge source="Honduras" target="Angola" />
+    <edge source="Honduras" target="Belize" />
     <edge source="Honduras" target="El_Salvador" />
     <edge source="Honduras" target="Guatemala" />
     <edge source="Honduras" target="Jamaica" />
@@ -1125,14 +1382,6 @@
     <edge source="Honduras" target="Nicaragua" />
     <edge source="Honduras" target="Spain" />
     <edge source="Honduras" target="United_States" />
-    <edge source="Jamaica" target="Cuba" />
-    <edge source="Jamaica" target="Ethiopia" />
-    <edge source="Jamaica" target="India" />
-    <edge source="Jamaica" target="Ireland" />
-    <edge source="Jamaica" target="Sierra_Leone" />
-    <edge source="Jamaica" target="Spain" />
-    <edge source="Jamaica" target="United_Kingdom" />
-    <edge source="Jamaica" target="United_States" />
     <edge source="Mexico" target="Canada" />
     <edge source="Mexico" target="France" />
     <edge source="Mexico" target="Germany" />
@@ -1140,6 +1389,7 @@
     <edge source="Mexico" target="Philippines" />
     <edge source="Mexico" target="Spain" />
     <edge source="Mexico" target="United_States" />
+    <edge source="Benin" target="Brazil" />
     <edge source="Benin" target="China" />
     <edge source="Benin" target="North_Korea" />
     <edge source="Benin" target="France" />
@@ -1153,30 +1403,52 @@
     <edge source="North_Korea" target="Vietnam" />
     <edge source="Bhutan" target="Afghanistan" />
     <edge source="Bhutan" target="Australia" />
+    <edge source="Bhutan" target="Bangladesh" />
     <edge source="Bhutan" target="Canada" />
     <edge source="Bhutan" target="India" />
     <edge source="Bhutan" target="Ireland" />
+    <edge source="Bhutan" target="Maldives" />
     <edge source="Bhutan" target="Nepal" />
     <edge source="Bhutan" target="Norway" />
+    <edge source="Bhutan" target="Pakistan" />
     <edge source="Bhutan" target="Portugal" />
+    <edge source="Bhutan" target="Sri_Lanka" />
     <edge source="Bhutan" target="Turkey" />
     <edge source="Bhutan" target="United_Kingdom" />
     <edge source="Bhutan" target="United_States" />
+    <edge source="Maldives" target="China" />
+    <edge source="Maldives" target="India" />
+    <edge source="Maldives" target="Netherlands" />
+    <edge source="Maldives" target="Singapore" />
+    <edge source="Maldives" target="Sri_Lanka" />
+    <edge source="Maldives" target="United_Kingdom" />
+    <edge source="Maldives" target="Yemen" />
     <edge source="Nepal" target="China" />
     <edge source="Nepal" target="India" />
     <edge source="Nepal" target="Laos" />
     <edge source="Nepal" target="Myanmar" />
-    <edge source="Bolivia" target="Argentina" />
-    <edge source="Bolivia" target="Brazil" />
-    <edge source="Bolivia" target="Chile" />
-    <edge source="Bolivia" target="Germany" />
-    <edge source="Bolivia" target="Italy" />
-    <edge source="Bolivia" target="Japan" />
-    <edge source="Bolivia" target="Panama" />
-    <edge source="Bolivia" target="Paraguay" />
-    <edge source="Bolivia" target="Peru" />
-    <edge source="Bolivia" target="Spain" />
-    <edge source="Bolivia" target="United_States" />
+    <edge source="Nepal" target="United_Kingdom" />
+    <edge source="Sri_Lanka" target="Cambodia" />
+    <edge source="Sri_Lanka" target="China" />
+    <edge source="Sri_Lanka" target="France" />
+    <edge source="Sri_Lanka" target="India" />
+    <edge source="Sri_Lanka" target="Indonesia" />
+    <edge source="Sri_Lanka" target="Laos" />
+    <edge source="Sri_Lanka" target="Myanmar" />
+    <edge source="Sri_Lanka" target="Netherlands" />
+    <edge source="Sri_Lanka" target="Philippines" />
+    <edge source="Sri_Lanka" target="Singapore" />
+    <edge source="Sri_Lanka" target="Thailand" />
+    <edge source="Ecuador" target="Argentina" />
+    <edge source="Ecuador" target="Bolivia" />
+    <edge source="Ecuador" target="Brazil" />
+    <edge source="Ecuador" target="Chile" />
+    <edge source="Ecuador" target="Colombia" />
+    <edge source="Ecuador" target="Panama" />
+    <edge source="Ecuador" target="Peru" />
+    <edge source="Ecuador" target="Spain" />
+    <edge source="Ecuador" target="United_States" />
+    <edge source="Ecuador" target="Venezuela" />
     <edge source="Panama" target="China" />
     <edge source="Panama" target="Colombia" />
     <edge source="Panama" target="France" />
@@ -1246,41 +1518,16 @@
     <edge source="Namibia" target="South_Africa" />
     <edge source="Namibia" target="Sweden" />
     <edge source="Namibia" target="United_States" />
-    <edge source="South_Africa" target="Botswana" />
-    <edge source="South_Africa" target="Burundi" />
-    <edge source="South_Africa" target="Canada" />
-    <edge source="South_Africa" target="Republic_of_the_Congo" />
-    <edge source="South_Africa" target="Democratic_Republic_of_the_Congo" />
-    <edge source="South_Africa" target="Egypt" />
-    <edge source="South_Africa" target="Eritrea" />
-    <edge source="South_Africa" target="Ethiopia" />
-    <edge source="South_Africa" target="France" />
-    <edge source="South_Africa" target="India" />
-    <edge source="South_Africa" target="Israel" />
-    <edge source="South_Africa" target="Liberia" />
-    <edge source="South_Africa" target="Namibia" />
-    <edge source="South_Africa" target="Portugal" />
-    <edge source="South_Africa" target="Russia" />
-    <edge source="South_Africa" target="Rwanda" />
-    <edge source="South_Africa" target="Somalia" />
-    <edge source="South_Africa" target="Ukraine" />
-    <edge source="South_Africa" target="United_Kingdom" />
-    <edge source="South_Africa" target="Zimbabwe" />
-    <edge source="Mozambique" target="Angola" />
-    <edge source="Mozambique" target="Cuba" />
-    <edge source="Mozambique" target="Guinea" />
-    <edge source="Mozambique" target="Malawi" />
-    <edge source="Mozambique" target="Portugal" />
-    <edge source="Mozambique" target="South_Africa" />
-    <edge source="Mozambique" target="Zambia" />
-    <edge source="Mozambique" target="Zimbabwe" />
     <edge source="Uruguay" target="Argentina" />
     <edge source="Uruguay" target="Brazil" />
     <edge source="Uruguay" target="France" />
     <edge source="Uruguay" target="Germany" />
     <edge source="Uruguay" target="Italy" />
     <edge source="Uruguay" target="Japan" />
+    <edge source="Uruguay" target="Paraguay" />
+    <edge source="Uruguay" target="Portugal" />
     <edge source="Uruguay" target="Spain" />
+    <edge source="Uruguay" target="United_Kingdom" />
     <edge source="Brunei" target="Cambodia" />
     <edge source="Brunei" target="China" />
     <edge source="Brunei" target="Fiji" />
@@ -1294,6 +1541,8 @@
     <edge source="Brunei" target="United_States" />
     <edge source="Cambodia" target="China" />
     <edge source="Cambodia" target="France" />
+    <edge source="Cambodia" target="India" />
+    <edge source="Cambodia" target="Laos" />
     <edge source="Cambodia" target="Sri_Lanka" />
     <edge source="Cambodia" target="Thailand" />
     <edge source="Cambodia" target="United_States" />
@@ -1315,6 +1564,7 @@
     <edge source="Malaysia" target="India" />
     <edge source="Malaysia" target="Indonesia" />
     <edge source="Malaysia" target="Philippines" />
+    <edge source="Malaysia" target="Portugal" />
     <edge source="Malaysia" target="Singapore" />
     <edge source="Burkina_Faso" target="Ivory_Coast" />
     <edge source="Burkina_Faso" target="France" />
@@ -1328,12 +1578,18 @@
     <edge source="Ivory_Coast" target="Burkina_Faso" />
     <edge source="Ivory_Coast" target="Colombia" />
     <edge source="Ivory_Coast" target="France" />
+    <edge source="Ivory_Coast" target="Germany" />
     <edge source="Ivory_Coast" target="Ghana" />
+    <edge source="Ivory_Coast" target="Guinea" />
     <edge source="Ivory_Coast" target="Italy" />
     <edge source="Ivory_Coast" target="Liberia" />
+    <edge source="Ivory_Coast" target="Mali" />
+    <edge source="Ivory_Coast" target="Mauritania" />
     <edge source="Ivory_Coast" target="Niger" />
     <edge source="Ivory_Coast" target="Senegal" />
     <edge source="Ivory_Coast" target="Sierra_Leone" />
+    <edge source="Ivory_Coast" target="South_Africa" />
+    <edge source="Ivory_Coast" target="Sudan" />
     <edge source="Senegal" target="France" />
     <edge source="Senegal" target="The_Gambia" />
     <edge source="Senegal" target="Ghana" />
@@ -1341,7 +1597,9 @@
     <edge source="Senegal" target="India" />
     <edge source="Senegal" target="Kuwait" />
     <edge source="Senegal" target="Mali" />
+    <edge source="Senegal" target="Netherlands" />
     <edge source="Senegal" target="Niger" />
+    <edge source="Senegal" target="Portugal" />
     <edge source="Senegal" target="Russia" />
     <edge source="Senegal" target="Sudan" />
     <edge source="Sudan" target="Belgium" />
@@ -1359,28 +1617,6 @@
     <edge source="Sudan" target="United_Arab_Emirates" />
     <edge source="Sudan" target="Tanzania" />
     <edge source="Sudan" target="United_States" />
-    <edge source="Burundi" target="Belgium" />
-    <edge source="Burundi" target="Botswana" />
-    <edge source="Burundi" target="China" />
-    <edge source="Burundi" target="Republic_of_the_Congo" />
-    <edge source="Burundi" target="Democratic_Republic_of_the_Congo" />
-    <edge source="Burundi" target="Eswatini" />
-    <edge source="Burundi" target="France" />
-    <edge source="Burundi" target="Germany" />
-    <edge source="Burundi" target="Lesotho" />
-    <edge source="Burundi" target="Rwanda" />
-    <edge source="Burundi" target="Somalia" />
-    <edge source="Burundi" target="South_Africa" />
-    <edge source="Burundi" target="Uganda" />
-    <edge source="Burundi" target="Ukraine" />
-    <edge source="Burundi" target="Tanzania" />
-    <edge source="Burundi" target="United_States" />
-    <edge source="Rwanda" target="Belgium" />
-    <edge source="Rwanda" target="Burundi" />
-    <edge source="Rwanda" target="Republic_of_the_Congo" />
-    <edge source="Rwanda" target="Democratic_Republic_of_the_Congo" />
-    <edge source="Rwanda" target="Germany" />
-    <edge source="Rwanda" target="Uganda" />
     <edge source="Somalia" target="China" />
     <edge source="Somalia" target="Cuba" />
     <edge source="Somalia" target="North_Korea" />
@@ -1391,6 +1627,7 @@
     <edge source="Somalia" target="France" />
     <edge source="Somalia" target="Greece" />
     <edge source="Somalia" target="India" />
+    <edge source="Somalia" target="Iran" />
     <edge source="Somalia" target="Italy" />
     <edge source="Somalia" target="Kenya" />
     <edge source="Somalia" target="Libya" />
@@ -1415,27 +1652,32 @@
     <edge source="Tanzania" target="Kenya" />
     <edge source="Tanzania" target="Madagascar" />
     <edge source="Tanzania" target="Mozambique" />
+    <edge source="Tanzania" target="Portugal" />
     <edge source="Tanzania" target="Somalia" />
     <edge source="Tanzania" target="South_Africa" />
+    <edge source="Tanzania" target="South_Sudan" />
+    <edge source="Tanzania" target="Sudan" />
     <edge source="Tanzania" target="Uganda" />
     <edge source="Tanzania" target="Zambia" />
     <edge source="Tanzania" target="Zimbabwe" />
-    <edge source="Sri_Lanka" target="China" />
-    <edge source="Sri_Lanka" target="France" />
-    <edge source="Sri_Lanka" target="India" />
-    <edge source="Sri_Lanka" target="Indonesia" />
-    <edge source="Sri_Lanka" target="Myanmar" />
-    <edge source="Sri_Lanka" target="Netherlands" />
-    <edge source="Sri_Lanka" target="Philippines" />
-    <edge source="Sri_Lanka" target="Singapore" />
+    <edge source="Laos" target="Cambodia" />
+    <edge source="Laos" target="China" />
+    <edge source="Laos" target="France" />
+    <edge source="Laos" target="Japan" />
+    <edge source="Laos" target="Thailand" />
+    <edge source="Laos" target="United_States" />
+    <edge source="Laos" target="Vietnam" />
     <edge source="Thailand" target="Cambodia" />
     <edge source="Thailand" target="China" />
     <edge source="Thailand" target="France" />
+    <edge source="Thailand" target="Germany" />
     <edge source="Thailand" target="India" />
     <edge source="Thailand" target="Japan" />
     <edge source="Thailand" target="Laos" />
     <edge source="Thailand" target="Myanmar" />
+    <edge source="Thailand" target="Portugal" />
     <edge source="Thailand" target="Sri_Lanka" />
+    <edge source="Thailand" target="Switzerland" />
     <edge source="Thailand" target="United_Kingdom" />
     <edge source="Thailand" target="United_States" />
     <edge source="Thailand" target="Vietnam" />
@@ -1449,7 +1691,21 @@
     <edge source="Chad" target="Libya" />
     <edge source="Chad" target="Senegal" />
     <edge source="Chad" target="Sudan" />
+    <edge source="Cape_Verde" target="Guinea" />
+    <edge source="Cape_Verde" target="Guinea-Bissau" />
     <edge source="Cape_Verde" target="Portugal" />
+    <edge source="Guinea-Bissau" target="Brazil" />
+    <edge source="Guinea-Bissau" target="Cape_Verde" />
+    <edge source="Guinea-Bissau" target="China" />
+    <edge source="Guinea-Bissau" target="Cuba" />
+    <edge source="Guinea-Bissau" target="Guinea" />
+    <edge source="Guinea-Bissau" target="Mali" />
+    <edge source="Guinea-Bissau" target="Portugal" />
+    <edge source="Guinea-Bissau" target="Romania" />
+    <edge source="Guinea-Bissau" target="Russia" />
+    <edge source="Guinea-Bissau" target="Senegal" />
+    <edge source="Guinea-Bissau" target="Spain" />
+    <edge source="Guinea-Bissau" target="Ukraine" />
     <edge source="Central_African_Republic" target="Belgium" />
     <edge source="Central_African_Republic" target="Burundi" />
     <edge source="Central_African_Republic" target="Cameroon" />
@@ -1462,19 +1718,29 @@
     <edge source="Central_African_Republic" target="Russia" />
     <edge source="Central_African_Republic" target="Sudan" />
     <edge source="Central_African_Republic" target="United_States" />
+    <edge source="Nicaragua" target="Bulgaria" />
+    <edge source="Nicaragua" target="Colombia" />
     <edge source="Nicaragua" target="Costa_Rica" />
     <edge source="Nicaragua" target="Cuba" />
     <edge source="Nicaragua" target="Dominican_Republic" />
     <edge source="Nicaragua" target="El_Salvador" />
+    <edge source="Nicaragua" target="Germany" />
     <edge source="Nicaragua" target="Guatemala" />
     <edge source="Nicaragua" target="Honduras" />
+    <edge source="Nicaragua" target="Hungary" />
     <edge source="Nicaragua" target="Iran" />
     <edge source="Nicaragua" target="Iraq" />
     <edge source="Nicaragua" target="Israel" />
+    <edge source="Nicaragua" target="Italy" />
+    <edge source="Nicaragua" target="Japan" />
     <edge source="Nicaragua" target="Mexico" />
     <edge source="Nicaragua" target="Montenegro" />
     <edge source="Nicaragua" target="Panama" />
     <edge source="Nicaragua" target="Paraguay" />
+    <edge source="Nicaragua" target="Peru" />
+    <edge source="Nicaragua" target="Philippines" />
+    <edge source="Nicaragua" target="Romania" />
+    <edge source="Nicaragua" target="Spain" />
     <edge source="Nicaragua" target="United_States" />
     <edge source="Mongolia" target="China" />
     <edge source="Mongolia" target="France" />
@@ -1485,16 +1751,6 @@
     <edge source="Mongolia" target="Poland" />
     <edge source="Mongolia" target="Russia" />
     <edge source="Mongolia" target="Vietnam" />
-    <edge source="Ecuador" target="Argentina" />
-    <edge source="Ecuador" target="Bolivia" />
-    <edge source="Ecuador" target="Brazil" />
-    <edge source="Ecuador" target="Chile" />
-    <edge source="Ecuador" target="Colombia" />
-    <edge source="Ecuador" target="Panama" />
-    <edge source="Ecuador" target="Peru" />
-    <edge source="Ecuador" target="Spain" />
-    <edge source="Ecuador" target="United_States" />
-    <edge source="Ecuador" target="Venezuela" />
     <edge source="Haiti" target="Algeria" />
     <edge source="Haiti" target="Bulgaria" />
     <edge source="Haiti" target="Canada" />
@@ -1532,6 +1788,7 @@
     <edge source="Kenya" target="Nigeria" />
     <edge source="Kenya" target="Oman" />
     <edge source="Kenya" target="Somalia" />
+    <edge source="Kenya" target="Sudan" />
     <edge source="Kenya" target="Uganda" />
     <edge source="Kenya" target="United_Kingdom" />
     <edge source="Kenya" target="Tanzania" />
@@ -1572,14 +1829,22 @@
     <edge source="El_Salvador" target="Spain" />
     <edge source="El_Salvador" target="United_States" />
     <edge source="El_Salvador" target="Venezuela" />
+    <edge source="Dominican_Republic" target="Brazil" />
+    <edge source="Dominican_Republic" target="Costa_Rica" />
     <edge source="Dominican_Republic" target="Cuba" />
     <edge source="Dominican_Republic" target="France" />
     <edge source="Dominican_Republic" target="Germany" />
     <edge source="Dominican_Republic" target="Haiti" />
+    <edge source="Dominican_Republic" target="Honduras" />
+    <edge source="Dominican_Republic" target="Iraq" />
     <edge source="Dominican_Republic" target="Italy" />
+    <edge source="Dominican_Republic" target="Jamaica" />
+    <edge source="Dominican_Republic" target="Nicaragua" />
     <edge source="Dominican_Republic" target="Panama" />
+    <edge source="Dominican_Republic" target="Paraguay" />
     <edge source="Dominican_Republic" target="Spain" />
     <edge source="Dominican_Republic" target="United_States" />
+    <edge source="Dominican_Republic" target="Venezuela" />
     <edge source="Ethiopia" target="Armenia" />
     <edge source="Ethiopia" target="China" />
     <edge source="Ethiopia" target="Egypt" />
@@ -1591,13 +1856,17 @@
     <edge source="Ethiopia" target="Morocco" />
     <edge source="Ethiopia" target="Portugal" />
     <edge source="Ethiopia" target="Somalia" />
+    <edge source="Ethiopia" target="Yemen" />
     <edge source="Ethiopia" target="Zimbabwe" />
     <edge source="Cyprus" target="Afghanistan" />
+    <edge source="Cyprus" target="Armenia" />
     <edge source="Cyprus" target="China" />
     <edge source="Cyprus" target="Egypt" />
     <edge source="Cyprus" target="Greece" />
+    <edge source="Cyprus" target="India" />
     <edge source="Cyprus" target="Lebanon" />
     <edge source="Cyprus" target="Saudi_Arabia" />
+    <edge source="Cyprus" target="Serbia" />
     <edge source="Cyprus" target="Sudan" />
     <edge source="Cyprus" target="Turkey" />
     <edge source="Cyprus" target="Ukraine" />
@@ -1622,6 +1891,7 @@
     <edge source="Slovakia" target="Poland" />
     <edge source="Slovakia" target="Romania" />
     <edge source="Slovakia" target="Russia" />
+    <edge source="Slovakia" target="Serbia" />
     <edge source="Slovakia" target="Ukraine" />
     <edge source="Slovakia" target="United_States" />
     <edge source="Slovakia" target="Vietnam" />
@@ -1638,6 +1908,8 @@
     <edge source="Togo" target="The_Gambia" />
     <edge source="Togo" target="Germany" />
     <edge source="Togo" target="Ghana" />
+    <edge source="Togo" target="Nigeria" />
+    <edge source="Togo" target="Senegal" />
     <edge source="Togo" target="United_Kingdom" />
     <edge source="Togo" target="United_States" />
     <edge source="Estonia" target="Denmark" />
@@ -1647,18 +1919,11 @@
     <edge source="Estonia" target="Latvia" />
     <edge source="Estonia" target="Lithuania" />
     <edge source="Estonia" target="Poland" />
+    <edge source="Estonia" target="Romania" />
     <edge source="Estonia" target="Russia" />
     <edge source="Estonia" target="Sweden" />
     <edge source="Estonia" target="United_Kingdom" />
     <edge source="Estonia" target="United_States" />
-    <edge source="Ghana" target="Benin" />
-    <edge source="Ghana" target="China" />
-    <edge source="Ghana" target="Guinea" />
-    <edge source="Ghana" target="Nigeria" />
-    <edge source="Ghana" target="Portugal" />
-    <edge source="Ghana" target="Togo" />
-    <edge source="Ghana" target="United_States" />
-    <edge source="Ghana" target="Vietnam" />
     <edge source="Djibouti" target="Egypt" />
     <edge source="Djibouti" target="Eritrea" />
     <edge source="Djibouti" target="Ethiopia" />
@@ -1675,56 +1940,27 @@
     <edge source="Eritrea" target="Ethiopia" />
     <edge source="Eritrea" target="Guatemala" />
     <edge source="Eritrea" target="Italy" />
+    <edge source="Eritrea" target="Libya" />
     <edge source="Eritrea" target="Norway" />
     <edge source="Eritrea" target="Pakistan" />
     <edge source="Eritrea" target="South_Africa" />
     <edge source="Eritrea" target="Sudan" />
-    <edge source="Yemen" target="Bahrain" />
-    <edge source="Yemen" target="Egypt" />
-    <edge source="Yemen" target="Ethiopia" />
-    <edge source="Yemen" target="India" />
-    <edge source="Yemen" target="Iran" />
-    <edge source="Yemen" target="Iraq" />
-    <edge source="Yemen" target="Israel" />
-    <edge source="Yemen" target="Italy" />
-    <edge source="Yemen" target="Jordan" />
-    <edge source="Yemen" target="Kuwait" />
-    <edge source="Yemen" target="Morocco" />
-    <edge source="Yemen" target="Pakistan" />
-    <edge source="Yemen" target="Portugal" />
-    <edge source="Yemen" target="Qatar" />
-    <edge source="Yemen" target="Saudi_Arabia" />
-    <edge source="Yemen" target="Sudan" />
-    <edge source="Yemen" target="Syria" />
-    <edge source="Yemen" target="United_Arab_Emirates" />
-    <edge source="Yemen" target="United_Kingdom" />
-    <edge source="Yemen" target="United_States" />
+    <edge source="Eritrea" target="United_States" />
     <edge source="Dominica" target="France" />
     <edge source="Dominica" target="Grenada" />
+    <edge source="Dominica" target="Haiti" />
     <edge source="Dominica" target="India" />
     <edge source="Dominica" target="Netherlands" />
+    <edge source="Dominica" target="Spain" />
+    <edge source="Dominica" target="United_Kingdom" />
     <edge source="Dominica" target="United_States" />
-    <edge source="Syria" target="China" />
-    <edge source="Syria" target="North_Korea" />
-    <edge source="Syria" target="Egypt" />
-    <edge source="Syria" target="France" />
-    <edge source="Syria" target="Iran" />
-    <edge source="Syria" target="Iraq" />
-    <edge source="Syria" target="Israel" />
-    <edge source="Syria" target="Jordan" />
-    <edge source="Syria" target="Lebanon" />
-    <edge source="Syria" target="Malta" />
-    <edge source="Syria" target="Morocco" />
-    <edge source="Syria" target="Russia" />
-    <edge source="Syria" target="Senegal" />
-    <edge source="Syria" target="Turkey" />
-    <edge source="Syria" target="United_Kingdom" />
-    <edge source="Syria" target="United_States" />
     <edge source="Equatorial_Guinea" target="Angola" />
     <edge source="Equatorial_Guinea" target="Brazil" />
     <edge source="Equatorial_Guinea" target="Cameroon" />
     <edge source="Equatorial_Guinea" target="China" />
+    <edge source="Equatorial_Guinea" target="Ivory_Coast" />
     <edge source="Equatorial_Guinea" target="Cuba" />
+    <edge source="Equatorial_Guinea" target="France" />
     <edge source="Equatorial_Guinea" target="Gabon" />
     <edge source="Equatorial_Guinea" target="Germany" />
     <edge source="Equatorial_Guinea" target="Guinea" />
@@ -1739,15 +1975,21 @@
     <edge source="Equatorial_Guinea" target="Spain" />
     <edge source="Equatorial_Guinea" target="United_Kingdom" />
     <edge source="Equatorial_Guinea" target="United_States" />
+    <edge source="Liberia" target="Burkina_Faso" />
     <edge source="Liberia" target="Ivory_Coast" />
     <edge source="Liberia" target="France" />
     <edge source="Liberia" target="Germany" />
+    <edge source="Liberia" target="Guinea" />
     <edge source="Liberia" target="Ireland" />
     <edge source="Liberia" target="Mali" />
+    <edge source="Liberia" target="Netherlands" />
     <edge source="Liberia" target="Nigeria" />
+    <edge source="Liberia" target="Panama" />
     <edge source="Liberia" target="Sierra_Leone" />
+    <edge source="Liberia" target="South_Africa" />
     <edge source="Liberia" target="United_Kingdom" />
     <edge source="Liberia" target="United_States" />
+    <edge source="Sierra_Leone" target="Australia" />
     <edge source="Sierra_Leone" target="Canada" />
     <edge source="Sierra_Leone" target="France" />
     <edge source="Sierra_Leone" target="Ghana" />
@@ -1773,10 +2015,11 @@
     <edge source="Latvia" target="Poland" />
     <edge source="Latvia" target="Russia" />
     <edge source="Latvia" target="Sweden" />
-    <edge source="Indonesia" target="China" />
-    <edge source="Indonesia" target="India" />
-    <edge source="Indonesia" target="Japan" />
-    <edge source="Indonesia" target="Netherlands" />
+    <edge source="Romania" target="Bulgaria" />
+    <edge source="Romania" target="North_Korea" />
+    <edge source="Romania" target="Germany" />
+    <edge source="Romania" target="Hungary" />
+    <edge source="Romania" target="Russia" />
     <edge source="Samoa" target="Australia" />
     <edge source="Samoa" target="Fiji" />
     <edge source="Samoa" target="Germany" />
@@ -1789,14 +2032,17 @@
     <edge source="Solomon_Islands" target="Australia" />
     <edge source="Solomon_Islands" target="China" />
     <edge source="Solomon_Islands" target="Fiji" />
+    <edge source="Solomon_Islands" target="Georgia" />
     <edge source="Solomon_Islands" target="Germany" />
     <edge source="Solomon_Islands" target="Guinea" />
     <edge source="Solomon_Islands" target="Japan" />
     <edge source="Solomon_Islands" target="New_Zealand" />
     <edge source="Solomon_Islands" target="Papua_New_Guinea" />
     <edge source="Solomon_Islands" target="Peru" />
+    <edge source="Solomon_Islands" target="Philippines" />
     <edge source="Solomon_Islands" target="Samoa" />
     <edge source="Solomon_Islands" target="United_States" />
+    <edge source="Solomon_Islands" target="Vanuatu" />
     <edge source="Tonga" target="Brunei" />
     <edge source="Tonga" target="Eswatini" />
     <edge source="Tonga" target="Lesotho" />
@@ -1806,23 +2052,37 @@
     <edge source="Tonga" target="Samoa" />
     <edge source="Tonga" target="United_Kingdom" />
     <edge source="Tonga" target="United_States" />
-    <edge source="Guinea-Bissau" target="Cape_Verde" />
-    <edge source="Guinea-Bissau" target="Guinea" />
-    <edge source="Guinea-Bissau" target="Mali" />
-    <edge source="Guinea-Bissau" target="Portugal" />
-    <edge source="Guinea-Bissau" target="Romania" />
-    <edge source="Guinea-Bissau" target="Russia" />
-    <edge source="Romania" target="Bulgaria" />
-    <edge source="Romania" target="Germany" />
-    <edge source="Romania" target="Hungary" />
-    <edge source="Romania" target="Russia" />
-    <edge source="Jordan" target="Egypt" />
-    <edge source="Jordan" target="Iraq" />
-    <edge source="Jordan" target="Israel" />
-    <edge source="Jordan" target="Syria" />
+    <edge source="North_Macedonia" target="Albania" />
+    <edge source="North_Macedonia" target="Austria" />
+    <edge source="North_Macedonia" target="Bulgaria" />
+    <edge source="North_Macedonia" target="Greece" />
+    <edge source="North_Macedonia" target="Hungary" />
+    <edge source="North_Macedonia" target="Serbia" />
+    <edge source="North_Macedonia" target="Turkey" />
+    <edge source="Myanmar" target="Bangladesh" />
+    <edge source="Myanmar" target="China" />
+    <edge source="Myanmar" target="India" />
+    <edge source="Myanmar" target="Japan" />
+    <edge source="Myanmar" target="Laos" />
+    <edge source="Myanmar" target="Pakistan" />
+    <edge source="Myanmar" target="Philippines" />
+    <edge source="Myanmar" target="Russia" />
+    <edge source="Myanmar" target="Singapore" />
+    <edge source="Myanmar" target="Thailand" />
+    <edge source="Myanmar" target="United_States" />
+    <edge source="Myanmar" target="Vietnam" />
+    <edge source="Turkmenistan" target="Afghanistan" />
+    <edge source="Turkmenistan" target="Azerbaijan" />
+    <edge source="Turkmenistan" target="China" />
+    <edge source="Turkmenistan" target="North_Korea" />
     <edge source="Turkmenistan" target="Iran" />
     <edge source="Turkmenistan" target="Mongolia" />
+    <edge source="Turkmenistan" target="Russia" />
+    <edge source="Turkmenistan" target="Turkey" />
+    <edge source="Turkmenistan" target="Uzbekistan" />
     <edge source="Kazakhstan" target="Bulgaria" />
+    <edge source="Kazakhstan" target="China" />
+    <edge source="Kazakhstan" target="Hungary" />
     <edge source="Kazakhstan" target="India" />
     <edge source="Kazakhstan" target="Russia" />
     <edge source="Zambia" target="Angola" />
@@ -1862,6 +2122,7 @@
     <edge source="Nauru" target="United_Kingdom" />
     <edge source="Nauru" target="United_States" />
     <edge source="Tuvalu" target="Australia" />
+    <edge source="Tuvalu" target="China" />
     <edge source="Tuvalu" target="Kiribati" />
     <edge source="Tuvalu" target="New_Zealand" />
     <edge source="Tuvalu" target="Peru" />
@@ -1882,20 +2143,20 @@
     <edge source="Kyrgyzstan" target="Ukraine" />
     <edge source="Kyrgyzstan" target="Uzbekistan" />
     <edge source="Tajikistan" target="Afghanistan" />
+    <edge source="Tajikistan" target="Finland" />
+    <edge source="Tajikistan" target="Germany" />
     <edge source="Tajikistan" target="India" />
     <edge source="Tajikistan" target="Iran" />
     <edge source="Tajikistan" target="Iraq" />
+    <edge source="Tajikistan" target="Japan" />
+    <edge source="Tajikistan" target="Kazakhstan" />
     <edge source="Tajikistan" target="Kyrgyzstan" />
+    <edge source="Tajikistan" target="Pakistan" />
     <edge source="Tajikistan" target="Russia" />
     <edge source="Tajikistan" target="Syria" />
+    <edge source="Tajikistan" target="Turkmenistan" />
     <edge source="Tajikistan" target="United_States" />
-    <edge source="Laos" target="Cambodia" />
-    <edge source="Laos" target="China" />
-    <edge source="Laos" target="France" />
-    <edge source="Laos" target="Japan" />
-    <edge source="Laos" target="Thailand" />
-    <edge source="Laos" target="United_States" />
-    <edge source="Laos" target="Vietnam" />
+    <edge source="Tajikistan" target="Uzbekistan" />
     <edge source="United_Arab_Emirates" target="Bahrain" />
     <edge source="United_Arab_Emirates" target="France" />
     <edge source="United_Arab_Emirates" target="Germany" />
@@ -1912,14 +2173,8 @@
     <edge source="Malawi" target="Ghana" />
     <edge source="Malawi" target="South_Africa" />
     <edge source="Malawi" target="United_Kingdom" />
+    <edge source="Malawi" target="Tanzania" />
     <edge source="Malawi" target="Zambia" />
-    <edge source="Maldives" target="China" />
-    <edge source="Maldives" target="India" />
-    <edge source="Maldives" target="Netherlands" />
-    <edge source="Maldives" target="Singapore" />
-    <edge source="Maldives" target="Sri_Lanka" />
-    <edge source="Maldives" target="United_Kingdom" />
-    <edge source="Maldives" target="Yemen" />
     <edge source="Marshall_Islands" target="Australia" />
     <edge source="Marshall_Islands" target="Germany" />
     <edge source="Marshall_Islands" target="Guinea" />
@@ -1966,30 +2221,33 @@
     <edge source="Vanuatu" target="Australia" />
     <edge source="Vanuatu" target="China" />
     <edge source="Vanuatu" target="Cuba" />
+    <edge source="Vanuatu" target="Fiji" />
     <edge source="Vanuatu" target="France" />
     <edge source="Vanuatu" target="Germany" />
     <edge source="Vanuatu" target="Guinea" />
+    <edge source="Vanuatu" target="Japan" />
     <edge source="Vanuatu" target="Libya" />
+    <edge source="Vanuatu" target="New_Zealand" />
     <edge source="Vanuatu" target="Papua_New_Guinea" />
+    <edge source="Vanuatu" target="Philippines" />
+    <edge source="Vanuatu" target="Samoa" />
     <edge source="Vanuatu" target="Solomon_Islands" />
     <edge source="Vanuatu" target="South_Africa" />
+    <edge source="Vanuatu" target="Tonga" />
+    <edge source="Vanuatu" target="United_Kingdom" />
     <edge source="Vanuatu" target="United_States" />
+    <edge source="Vanuatu" target="Vietnam" />
     <edge source="Monaco" target="France" />
+    <edge source="Monaco" target="Germany" />
     <edge source="Monaco" target="Italy" />
     <edge source="Monaco" target="Spain" />
     <edge source="Monaco" target="Switzerland" />
-    <edge source="Myanmar" target="China" />
-    <edge source="Myanmar" target="India" />
-    <edge source="Myanmar" target="Japan" />
-    <edge source="Myanmar" target="Laos" />
-    <edge source="Myanmar" target="Singapore" />
-    <edge source="Myanmar" target="Thailand" />
-    <edge source="Myanmar" target="United_States" />
     <edge source="Suriname" target="China" />
     <edge source="Suriname" target="France" />
     <edge source="Suriname" target="India" />
     <edge source="Suriname" target="Indonesia" />
     <edge source="Suriname" target="Netherlands" />
+    <edge source="Suriname" target="Portugal" />
     <edge source="Suriname" target="Spain" />
     <edge source="Suriname" target="United_States" />
     <edge source="South_Korea" target="China" />
@@ -1998,27 +2256,29 @@
     <edge source="South_Korea" target="Russia" />
     <edge source="South_Korea" target="United_States" />
     <edge source="South_Korea" target="Vietnam" />
-    <edge source="North_Macedonia" target="Albania" />
-    <edge source="North_Macedonia" target="Austria" />
-    <edge source="North_Macedonia" target="Bulgaria" />
-    <edge source="North_Macedonia" target="Greece" />
-    <edge source="North_Macedonia" target="Hungary" />
-    <edge source="North_Macedonia" target="Serbia" />
-    <edge source="North_Macedonia" target="Turkey" />
     <edge source="Papua_New_Guinea" target="Australia" />
     <edge source="Papua_New_Guinea" target="China" />
     <edge source="Papua_New_Guinea" target="Fiji" />
     <edge source="Papua_New_Guinea" target="Germany" />
     <edge source="Papua_New_Guinea" target="Guinea" />
     <edge source="Papua_New_Guinea" target="Netherlands" />
+    <edge source="Papua_New_Guinea" target="New_Zealand" />
     <edge source="Papua_New_Guinea" target="Solomon_Islands" />
     <edge source="Papua_New_Guinea" target="United_Kingdom" />
     <edge source="Saint_Kitts_and_Nevis" target="France" />
+    <edge source="Saint_Kitts_and_Nevis" target="Spain" />
     <edge source="Saint_Kitts_and_Nevis" target="Venezuela" />
     <edge source="Saint_Lucia" target="France" />
     <edge source="Saint_Lucia" target="Grenada" />
+    <edge source="Saint_Lucia" target="Guyana" />
     <edge source="Saint_Lucia" target="United_States" />
+    <edge source="Saint_Vincent_and_the_Grenadines" target="Belize" />
+    <edge source="Saint_Vincent_and_the_Grenadines" target="Grenada" />
+    <edge source="Saint_Vincent_and_the_Grenadines" target="Honduras" />
+    <edge source="Saint_Vincent_and_the_Grenadines" target="Portugal" />
+    <edge source="Saint_Vincent_and_the_Grenadines" target="United_Kingdom" />
     <edge source="San_Marino" target="Austria" />
+    <edge source="San_Marino" target="Croatia" />
     <edge source="San_Marino" target="Hungary" />
     <edge source="San_Marino" target="Italy" />
     <edge source="San_Marino" target="United_Kingdom" />
@@ -2046,6 +2306,7 @@
     <edge source="The_Bahamas" target="United_States" />
     <edge source="Timor-Leste" target="Australia" />
     <edge source="Timor-Leste" target="Indonesia" />
+    <edge source="Timor-Leste" target="Japan" />
     <edge source="Timor-Leste" target="Portugal" />
   </graph>
 </graphml>
