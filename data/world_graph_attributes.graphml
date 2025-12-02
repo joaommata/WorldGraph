@@ -1,773 +1,1160 @@
 <?xml version='1.0' encoding='utf-8'?>
-<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="node" attr.name="gdp" attr.type="double"/>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d4" for="node" attr.name="official_language" attr.type="double"/>
+<key id="d3" for="node" attr.name="official_language" attr.type="string"/>
+<key id="d2" for="node" attr.name="gdp" attr.type="double"/>
+<key id="d1" for="node" attr.name="continent" attr.type="string"/>
 <key id="d0" for="node" attr.name="sentiment_score" attr.type="double"/>
 <graph edgedefault="directed"><node id="Afghanistan">
   <data key="d0">2.6</data>
-  <data key="d1">502.115</data>
+  <data key="d1">Asia</data>
+  <data key="d2">502.115</data>
+  <data key="d3">Pashto</data>
 </node>
 <node id="China">
   <data key="d0">5.4</data>
-  <data key="d1">14244.678</data>
+  <data key="d1">Asia</data>
+  <data key="d2">14244.678</data>
+  <data key="d3">Standard Chinese</data>
 </node>
 <node id="Egypt">
   <data key="d0">4.1</data>
-  <data key="d1">3020.031</data>
+  <data key="d1">Africa</data>
+  <data key="d2">3020.031</data>
+  <data key="d3">Modern Standard Arabic</data>
 </node>
 <node id="France">
   <data key="d0">5.5</data>
-  <data key="d1">40493.929</data>
+  <data key="d1">Europe</data>
+  <data key="d2">40493.929</data>
+  <data key="d3">French</data>
 </node>
 <node id="Germany">
   <data key="d0">5.0</data>
-  <data key="d1">46258.878</data>
+  <data key="d1">Europe</data>
+  <data key="d2">46258.878</data>
+  <data key="d3">German</data>
 </node>
 <node id="India">
   <data key="d0">6.1</data>
-  <data key="d1">1910.836</data>
+  <data key="d1">Asia</data>
+  <data key="d2">1910.836</data>
+  <data key="d3">Hindi</data>
 </node>
 <node id="Iran">
   <data key="d0">5.0</data>
-  <data key="d1">5371.177</data>
+  <data key="d1">Asia</data>
+  <data key="d2">5371.177</data>
+  <data key="d3">Persian</data>
 </node>
 <node id="Italy">
   <data key="d0">6.0</data>
-  <data key="d1">33189.566</data>
+  <data key="d1">Europe</data>
+  <data key="d2">33189.566</data>
+  <data key="d3">Italian</data>
 </node>
 <node id="Pakistan">
   <data key="d0">5.0</data>
-  <data key="d1">1405.581</data>
+  <data key="d1">Asia</data>
+  <data key="d2">1405.581</data>
+  <data key="d3">Urdu</data>
 </node>
 <node id="Qatar">
   <data key="d0">6.4</data>
-  <data key="d1">64781.733</data>
+  <data key="d1">Asia</data>
+  <data key="d2">64781.733</data>
+  <data key="d3">Arabic</data>
 </node>
 <node id="Russia">
   <data key="d0">4.2</data>
-  <data key="d1">11774.156</data>
+  <data key="d1">Europe</data>
+  <data key="d2">11774.156</data>
+  <data key="d3">Russian</data>
 </node>
 <node id="United_Kingdom">
   <data key="d0">6.0</data>
-  <data key="d1">42300.267</data>
+  <data key="d1">Europe</data>
+  <data key="d2">42300.267</data>
+  <data key="d3">English</data>
 </node>
 <node id="United_States">
   <data key="d0">5.6</data>
-  <data key="d1">65280.682</data>
+  <data key="d1">North_America</data>
+  <data key="d2">65280.682</data>
+  <data key="d4">nan</data>
 </node>
 <node id="Uzbekistan">
   <data key="d0">4.2</data>
-  <data key="d1">1724.841</data>
+  <data key="d1">Asia</data>
+  <data key="d2">1724.841</data>
+  <data key="d3">Uzbek</data>
 </node>
 <node id="Albania">
   <data key="d0">4.8</data>
-  <data key="d1">5352.857</data>
+  <data key="d1">Europe</data>
+  <data key="d2">5352.857</data>
+  <data key="d3">Albanian</data>
 </node>
 <node id="Bosnia_and_Herzegovina">
   <data key="d0">4.2</data>
-  <data key="d1">6073.265</data>
+  <data key="d1">Europe</data>
+  <data key="d2">6073.265</data>
+  <data key="d3">Bosnian</data>
 </node>
 <node id="Bulgaria">
   <data key="d0">5.7</data>
-  <data key="d1">12328.404</data>
+  <data key="d1">Europe</data>
+  <data key="d2">12328.404</data>
+  <data key="d3">Bulgarian</data>
 </node>
 <node id="Greece">
   <data key="d0">6.4</data>
-  <data key="d1">19582.536</data>
+  <data key="d1">Europe</data>
+  <data key="d2">19582.536</data>
+  <data key="d3">Greek</data>
 </node>
 <node id="Ireland">
   <data key="d0">4.8</data>
-  <data key="d1">77629.989</data>
+  <data key="d1">Europe</data>
+  <data key="d2">77629.989</data>
+  <data key="d3">Irish</data>
 </node>
 <node id="Montenegro">
   <data key="d0">5.4</data>
-  <data key="d1">8832.037</data>
+  <data key="d1">Europe</data>
+  <data key="d2">8832.037</data>
+  <data key="d3">Montenegrin language</data>
 </node>
 <node id="Serbia">
   <data key="d0">4.5</data>
-  <data key="d1">7402.355</data>
+  <data key="d1">Europe</data>
+  <data key="d2">7402.355</data>
+  <data key="d3">Serbian</data>
 </node>
 <node id="Spain">
   <data key="d0">5.7</data>
-  <data key="d1">29613.671</data>
+  <data key="d1">Europe</data>
+  <data key="d2">29613.671</data>
+  <data key="d3">Spanish</data>
 </node>
 <node id="Algeria">
   <data key="d0">4.7</data>
-  <data key="d1">3948.343</data>
+  <data key="d1">Africa</data>
+  <data key="d2">3948.343</data>
+  <data key="d3">Arabic</data>
 </node>
 <node id="Iceland">
   <data key="d0">6.4</data>
-  <data key="d1">66944.826</data>
+  <data key="d1">Europe</data>
+  <data key="d2">66944.826</data>
+  <data key="d3">Icelandic</data>
 </node>
 <node id="Jordan">
   <data key="d0">5.8</data>
-  <data key="d1">4330.329</data>
+  <data key="d1">Asia</data>
+  <data key="d2">4330.329</data>
+  <data key="d3">Arabic</data>
 </node>
 <node id="Lebanon">
   <data key="d0">4.0</data>
-  <data key="d1">7784.317</data>
+  <data key="d1">Asia</data>
+  <data key="d2">7784.317</data>
+  <data key="d3">Arabic</data>
 </node>
 <node id="Libya">
   <data key="d0">4.4</data>
-  <data key="d1">7683.751</data>
+  <data key="d1">Africa</data>
+  <data key="d2">7683.751</data>
+  <data key="d3">Arabic</data>
 </node>
 <node id="Mali">
   <data key="d0">3.4</data>
-  <data key="d1">890.737</data>
+  <data key="d1">Africa</data>
+  <data key="d2">890.737</data>
+  <data key="d3">French</data>
 </node>
 <node id="Malta">
   <data key="d0">6.1</data>
-  <data key="d1">29416.231</data>
+  <data key="d1">Europe</data>
+  <data key="d2">29416.231</data>
+  <data key="d3">Maltese</data>
 </node>
 <node id="Mauritania">
   <data key="d0">5.0</data>
-  <data key="d1">1677.919</data>
+  <data key="d1">Africa</data>
+  <data key="d2">1677.919</data>
+  <data key="d3">Arabic</data>
 </node>
 <node id="Morocco">
   <data key="d0">5.4</data>
-  <data key="d1">3216.567</data>
+  <data key="d1">Africa</data>
+  <data key="d2">3216.567</data>
+  <data key="d3">Arabic</data>
 </node>
 <node id="Netherlands">
   <data key="d0">6.1</data>
-  <data key="d1">52447.831</data>
+  <data key="d1">Europe</data>
+  <data key="d2">52447.831</data>
+  <data key="d3">Dutch</data>
 </node>
 <node id="Portugal">
   <data key="d0">6.0</data>
-  <data key="d1">23145.041</data>
+  <data key="d1">Europe</data>
+  <data key="d2">23145.041</data>
+  <data key="d3">Portuguese</data>
 </node>
 <node id="Syria">
   <data key="d0">4.2</data>
-  <data key="d1">2367.0</data>
+  <data key="d1">Asia</data>
+  <data key="d2">2367.0</data>
+  <data key="d3">Arabic</data>
 </node>
 <node id="Tunisia">
   <data key="d0">5.0</data>
-  <data key="d1">3317.541</data>
+  <data key="d1">Africa</data>
+  <data key="d2">3317.541</data>
+  <data key="d3">Arabic</data>
 </node>
 <node id="Yemen">
   <data key="d0">3.0</data>
-  <data key="d1">922.93</data>
+  <data key="d1">Asia</data>
+  <data key="d2">922.93</data>
+  <data key="d3">Arabic</data>
 </node>
 <node id="Andorra">
   <data key="d0">6.8</data>
-  <data key="d1">40886.391</data>
+  <data key="d1">Europe</data>
+  <data key="d2">40886.391</data>
+  <data key="d3">Catalan</data>
 </node>
 <node id="Angola">
   <data key="d0">4.1</data>
-  <data key="d1">2973.591</data>
+  <data key="d1">Africa</data>
+  <data key="d2">2973.591</data>
+  <data key="d3">Portuguese</data>
 </node>
 <node id="Brazil">
   <data key="d0">5.0</data>
-  <data key="d1">8655.265</data>
+  <data key="d1">South_America</data>
+  <data key="d2">8655.265</data>
+  <data key="d3">Portuguese</data>
 </node>
 <node id="Republic_of_the_Congo">
   <data key="d0">4.2</data>
-  <data key="d1">2011.072</data>
+  <data key="d1">Africa</data>
+  <data key="d2">2011.072</data>
+  <data key="d3">French</data>
 </node>
 <node id="Cuba">
   <data key="d0">4.4</data>
-  <data key="d1">8825.442</data>
+  <data key="d1">North_America</data>
+  <data key="d2">8825.442</data>
+  <data key="d3">Spanish</data>
 </node>
 <node id="Democratic_Republic_of_the_Congo">
   <data key="d0">3.2</data>
-  <data key="d1">545.216</data>
+  <data key="d1">Africa</data>
+  <data key="d2">545.216</data>
+  <data key="d3">French</data>
 </node>
 <node id="Gabon">
   <data key="d0">4.9</data>
-  <data key="d1">7667.367</data>
+  <data key="d1">Africa</data>
+  <data key="d2">7667.367</data>
+  <data key="d3">French</data>
 </node>
 <node id="Ghana">
   <data key="d0">5.1</data>
-  <data key="d1">2175.315</data>
+  <data key="d1">Africa</data>
+  <data key="d2">2175.315</data>
+  <data key="d3">English</data>
 </node>
 <node id="Guinea">
   <data key="d0">3.5</data>
-  <data key="d1">1064.131</data>
+  <data key="d1">Africa</data>
+  <data key="d2">1064.131</data>
+  <data key="d3">French</data>
 </node>
 <node id="Mozambique">
   <data key="d0">4.2</data>
-  <data key="d1">491.805</data>
+  <data key="d1">Africa</data>
+  <data key="d2">491.805</data>
+  <data key="d3">Portuguese</data>
 </node>
 <node id="Niger">
   <data key="d0">4.1</data>
-  <data key="d1">554.601</data>
+  <data key="d1">Africa</data>
+  <data key="d2">554.601</data>
+  <data key="d3">French</data>
 </node>
 <node id="Nigeria">
   <data key="d0">4.6</data>
-  <data key="d1">2229.859</data>
+  <data key="d1">Africa</data>
+  <data key="d2">2229.859</data>
+  <data key="d3">English</data>
 </node>
 <node id="South_Africa">
   <data key="d0">5.1</data>
-  <data key="d1">6001.401</data>
+  <data key="d1">Africa</data>
+  <data key="d2">6001.401</data>
+  <data key="d3">Afrikaans</data>
 </node>
 <node id="Zimbabwe">
   <data key="d0">3.5</data>
-  <data key="d1">1463.986</data>
+  <data key="d1">Africa</data>
+  <data key="d2">1463.986</data>
+  <data key="d3">Shona</data>
 </node>
 <node id="Antigua_and_Barbuda">
   <data key="d0">4.8</data>
-  <data key="d1">17790.309</data>
+  <data key="d1">North_America</data>
+  <data key="d2">17790.309</data>
+  <data key="d3">English</data>
 </node>
 <node id="Argentina">
   <data key="d0">4.8</data>
-  <data key="d1">10006.149</data>
+  <data key="d1">South_America</data>
+  <data key="d2">10006.149</data>
+  <data key="d3">Spanish</data>
 </node>
 <node id="Australia">
   <data key="d0">6.2</data>
-  <data key="d1">54049.829</data>
+  <data key="d1">Oceania</data>
+  <data key="d2">54049.829</data>
+  <data key="d4">nan</data>
 </node>
 <node id="Belgium">
   <data key="d0">5.7</data>
-  <data key="d1">46116.699</data>
+  <data key="d1">Europe</data>
+  <data key="d2">46116.699</data>
+  <data key="d3">French</data>
 </node>
 <node id="Bolivia">
   <data key="d0">4.1</data>
-  <data key="d1">3552.069</data>
+  <data key="d1">South_America</data>
+  <data key="d2">3552.069</data>
+  <data key="d3">Spanish</data>
 </node>
 <node id="Canada">
   <data key="d0">6.2</data>
-  <data key="d1">46940.596</data>
+  <data key="d1">North_America</data>
+  <data key="d2">46940.596</data>
+  <data key="d3">French</data>
 </node>
 <node id="Chile">
   <data key="d0">5.7</data>
-  <data key="d1">14896.454</data>
+  <data key="d1">South_America</data>
+  <data key="d2">14896.454</data>
+  <data key="d3">Spanish</data>
 </node>
 <node id="Colombia">
   <data key="d0">4.7</data>
-  <data key="d1">6432.388</data>
+  <data key="d1">South_America</data>
+  <data key="d2">6432.388</data>
+  <data key="d3">Spanish</data>
 </node>
 <node id="Denmark">
   <data key="d0">6.5</data>
-  <data key="d1">59822.093</data>
+  <data key="d1">Europe</data>
+  <data key="d2">59822.093</data>
+  <data key="d3">Danish</data>
 </node>
 <node id="Georgia">
   <data key="d0">5.0</data>
-  <data key="d1">4769.187</data>
+  <data key="d1">Asia</data>
+  <data key="d2">4769.187</data>
+  <data key="d3">Georgian</data>
 </node>
 <node id="Japan">
   <data key="d0">6.1</data>
-  <data key="d1">40259.112</data>
+  <data key="d1">Asia</data>
+  <data key="d2">40259.112</data>
+  <data key="d4">nan</data>
 </node>
 <node id="New_Zealand">
   <data key="d0">6.2</data>
-  <data key="d1">42745.046</data>
+  <data key="d1">Oceania</data>
+  <data key="d2">42745.046</data>
+  <data key="d3">English</data>
 </node>
 <node id="Paraguay">
   <data key="d0">4.5</data>
-  <data key="d1">5414.799</data>
+  <data key="d1">South_America</data>
+  <data key="d2">5414.799</data>
+  <data key="d3">Spanish</data>
 </node>
 <node id="Peru">
   <data key="d0">4.5</data>
-  <data key="d1">6977.696</data>
+  <data key="d1">South_America</data>
+  <data key="d2">6977.696</data>
+  <data key="d3">Spanish</data>
 </node>
 <node id="Philippines">
   <data key="d0">5.3</data>
-  <data key="d1">3485.084</data>
+  <data key="d1">Asia</data>
+  <data key="d2">3485.084</data>
+  <data key="d3">English</data>
 </node>
 <node id="Switzerland">
   <data key="d0">7.3</data>
-  <data key="d1">81993.727</data>
+  <data key="d1">Europe</data>
+  <data key="d2">81993.727</data>
+  <data key="d3">German</data>
 </node>
 <node id="Venezuela">
   <data key="d0">3.9</data>
-  <data key="d1">16915.493</data>
+  <data key="d1">South_America</data>
+  <data key="d2">16915.493</data>
+  <data key="d3">Spanish</data>
 </node>
 <node id="Armenia">
   <data key="d0">4.6</data>
-  <data key="d1">4622.733</data>
+  <data key="d1">Asia</data>
+  <data key="d2">4622.733</data>
+  <data key="d3">Armenian</data>
 </node>
 <node id="Azerbaijan">
   <data key="d0">4.7</data>
-  <data key="d1">3911.579</data>
+  <data key="d1">Asia</data>
+  <data key="d2">3911.579</data>
+  <data key="d3">Azerbaijani language</data>
 </node>
 <node id="Turkey">
   <data key="d0">4.8</data>
-  <data key="d1">9042.493</data>
+  <data key="d1">Asia</data>
+  <data key="d2">9042.493</data>
+  <data key="d3">Turkish</data>
 </node>
 <node id="Indonesia">
   <data key="d0">5.2</data>
-  <data key="d1">4142.023</data>
+  <data key="d1">Asia</data>
+  <data key="d2">4142.023</data>
+  <data key="d3">Indonesian</data>
 </node>
 <node id="Iraq">
   <data key="d0">4.1</data>
-  <data key="d1">5955.109</data>
+  <data key="d1">Asia</data>
+  <data key="d2">5955.109</data>
+  <data key="d3">Arabic</data>
 </node>
 <node id="Singapore">
   <data key="d0">6.7</data>
-  <data key="d1">65233.282</data>
+  <data key="d1">Asia</data>
+  <data key="d2">65233.282</data>
+  <data key="d3">Malay</data>
 </node>
 <node id="Vietnam">
   <data key="d0">4.7</data>
-  <data key="d1">2715.276</data>
+  <data key="d1">Asia</data>
+  <data key="d2">2715.276</data>
+  <data key="d3">Vietnamese</data>
 </node>
 <node id="Austria">
   <data key="d0">6.2</data>
-  <data key="d1">50277.275</data>
+  <data key="d1">Europe</data>
+  <data key="d2">50277.275</data>
+  <data key="d3">German</data>
 </node>
 <node id="Hungary">
   <data key="d0">5.0</data>
-  <data key="d1">16475.742</data>
+  <data key="d1">Europe</data>
+  <data key="d2">16475.742</data>
+  <data key="d3">Hungarian</data>
 </node>
 <node id="Liechtenstein">
   <data key="d0">7.3</data>
-  <data key="d1">172357.472</data>
+  <data key="d1">Europe</data>
+  <data key="d2">172357.472</data>
+  <data key="d3">German</data>
 </node>
 <node id="Luxembourg">
   <data key="d0">6.8</data>
-  <data key="d1">110172.373</data>
+  <data key="d1">Europe</data>
+  <data key="d2">110172.373</data>
+  <data key="d3">Luxembourgish</data>
 </node>
 <node id="Poland">
   <data key="d0">5.3</data>
-  <data key="d1">15595.227</data>
+  <data key="d1">Europe</data>
+  <data key="d2">15595.227</data>
+  <data key="d3">Polish</data>
 </node>
 <node id="Slovenia">
   <data key="d0">5.3</data>
-  <data key="d1">25739.248</data>
+  <data key="d1">Europe</data>
+  <data key="d2">25739.248</data>
+  <data key="d3">Slovene language</data>
 </node>
 <node id="Bahrain">
   <data key="d0">5.2</data>
-  <data key="d1">25688.046</data>
+  <data key="d1">Asia</data>
+  <data key="d2">25688.046</data>
+  <data key="d3">Arabic</data>
 </node>
 <node id="Israel">
   <data key="d0">4.8</data>
-  <data key="d1">43641.398</data>
+  <data key="d1">Asia</data>
+  <data key="d2">43641.398</data>
+  <data key="d3">Hebrew</data>
 </node>
 <node id="Kuwait">
   <data key="d0">5.9</data>
-  <data key="d1">32031.98</data>
+  <data key="d1">Asia</data>
+  <data key="d2">32031.98</data>
+  <data key="d3">Modern Standard Arabic</data>
 </node>
 <node id="Oman">
   <data key="d0">6.3</data>
-  <data key="d1">14617.409</data>
+  <data key="d1">Asia</data>
+  <data key="d2">14617.409</data>
+  <data key="d3">Arabic</data>
 </node>
 <node id="Saudi_Arabia">
   <data key="d0">4.8</data>
-  <data key="d1">23139.799</data>
+  <data key="d1">Asia</data>
+  <data key="d2">23139.799</data>
+  <data key="d3">Arabic</data>
 </node>
 <node id="Bangladesh">
   <data key="d0">4.8</data>
-  <data key="d1">1808.438</data>
+  <data key="d1">Asia</data>
+  <data key="d2">1808.438</data>
+  <data key="d3">Bengali</data>
 </node>
 <node id="Barbados">
   <data key="d0">4.5</data>
-  <data key="d1">18148.245</data>
+  <data key="d1">North_America</data>
+  <data key="d2">18148.245</data>
+  <data key="d3">English</data>
 </node>
 <node id="Grenada">
   <data key="d0">3.9</data>
-  <data key="d1">10965.513</data>
+  <data key="d1">North_America</data>
+  <data key="d2">10965.513</data>
+  <data key="d3">English</data>
 </node>
 <node id="Guyana">
   <data key="d0">5.2</data>
-  <data key="d1">5468.357</data>
+  <data key="d1">South_America</data>
+  <data key="d2">5468.357</data>
+  <data key="d3">English</data>
 </node>
 <node id="Jamaica">
   <data key="d0">4.4</data>
-  <data key="d1">5582.264</data>
+  <data key="d1">North_America</data>
+  <data key="d2">5582.264</data>
+  <data key="d3">Jamaican English</data>
 </node>
 <node id="Trinidad_and_Tobago">
   <data key="d0">5.8</data>
-  <data key="d1">17276.465</data>
+  <data key="d1">North_America</data>
+  <data key="d2">17276.465</data>
+  <data key="d3">English</data>
 </node>
 <node id="Belarus">
   <data key="d0">3.6</data>
-  <data key="d1">6663.295</data>
+  <data key="d1">Europe</data>
+  <data key="d2">6663.295</data>
+  <data key="d3">Russian</data>
 </node>
 <node id="Lithuania">
   <data key="d0">5.7</data>
-  <data key="d1">19455.454</data>
+  <data key="d1">Europe</data>
+  <data key="d2">19455.454</data>
+  <data key="d3">Lithuanian</data>
 </node>
 <node id="Norway">
   <data key="d0">6.7</data>
-  <data key="d1">75419.635</data>
+  <data key="d1">Europe</data>
+  <data key="d2">75419.635</data>
+  <data key="d3">Norwegian</data>
 </node>
 <node id="Ukraine">
   <data key="d0">4.3</data>
-  <data key="d1">3464.696</data>
+  <data key="d1">Europe</data>
+  <data key="d2">3464.696</data>
+  <data key="d3">Ukrainian</data>
 </node>
 <node id="Burundi">
   <data key="d0">3.2</data>
-  <data key="d1">261.247</data>
+  <data key="d1">Africa</data>
+  <data key="d2">261.247</data>
+  <data key="d3">Kirundi</data>
 </node>
 <node id="Rwanda">
   <data key="d0">4.1</data>
-  <data key="d1">801.656</data>
+  <data key="d1">Africa</data>
+  <data key="d2">801.656</data>
+  <data key="d3">Swahili</data>
 </node>
 <node id="Belize">
   <data key="d0">5.8</data>
-  <data key="d1">4815.164</data>
+  <data key="d1">North_America</data>
+  <data key="d2">4815.164</data>
+  <data key="d3">English</data>
 </node>
 <node id="Guatemala">
   <data key="d0">4.6</data>
-  <data key="d1">4619.987</data>
+  <data key="d1">North_America</data>
+  <data key="d2">4619.987</data>
+  <data key="d3">Spanish</data>
 </node>
 <node id="Honduras">
   <data key="d0">4.4</data>
-  <data key="d1">2574.912</data>
+  <data key="d1">North_America</data>
+  <data key="d2">2574.912</data>
+  <data key="d3">Spanish</data>
 </node>
 <node id="Mexico">
   <data key="d0">5.7</data>
-  <data key="d1">9985.291</data>
+  <data key="d1">North_America</data>
+  <data key="d2">9985.291</data>
+  <data key="d4">nan</data>
 </node>
 <node id="Benin">
   <data key="d0">4.4</data>
-  <data key="d1">1219.433</data>
+  <data key="d1">Africa</data>
+  <data key="d2">1219.433</data>
+  <data key="d3">French</data>
 </node>
 <node id="North_Korea">
   <data key="d0">3.6</data>
-  <data key="d1">1250.674</data>
+  <data key="d1">Asia</data>
+  <data key="d2">1250.674</data>
+  <data key="d3">Korean</data>
 </node>
 <node id="Bhutan">
   <data key="d0">5.5</data>
-  <data key="d1">3364.768</data>
+  <data key="d1">Asia</data>
+  <data key="d2">3364.768</data>
+  <data key="d3">Dzongkha</data>
 </node>
 <node id="Maldives">
   <data key="d0">6.0</data>
-  <data key="d1">10790.5</data>
+  <data key="d1">Asia</data>
+  <data key="d2">10790.5</data>
+  <data key="d3">Divehi</data>
 </node>
 <node id="Nepal">
   <data key="d0">5.4</data>
-  <data key="d1">1071.051</data>
+  <data key="d1">Asia</data>
+  <data key="d2">1071.051</data>
+  <data key="d3">Nepali</data>
 </node>
 <node id="Sri_Lanka">
   <data key="d0">4.7</data>
-  <data key="d1">3853.084</data>
+  <data key="d1">Asia</data>
+  <data key="d2">3853.084</data>
+  <data key="d3">Tamil</data>
 </node>
 <node id="Ecuador">
   <data key="d0">5.4</data>
-  <data key="d1">6183.824</data>
+  <data key="d1">South_America</data>
+  <data key="d2">6183.824</data>
+  <data key="d3">Spanish</data>
 </node>
 <node id="Panama">
   <data key="d0">5.6</data>
-  <data key="d1">15731.016</data>
+  <data key="d1">North_America</data>
+  <data key="d2">15731.016</data>
+  <data key="d3">Spanish</data>
 </node>
 <node id="Croatia">
   <data key="d0">5.0</data>
-  <data key="d1">14853.24</data>
+  <data key="d1">Europe</data>
+  <data key="d2">14853.24</data>
+  <data key="d3">Croatian</data>
 </node>
 <node id="Sweden">
   <data key="d0">6.5</data>
-  <data key="d1">51610.066</data>
+  <data key="d1">Europe</data>
+  <data key="d2">51610.066</data>
+  <data key="d3">Swedish</data>
 </node>
 <node id="Botswana">
   <data key="d0">6.4</data>
-  <data key="d1">7817.183</data>
+  <data key="d1">Africa</data>
+  <data key="d2">7817.183</data>
+  <data key="d3">English</data>
 </node>
 <node id="Eswatini">
   <data key="d0">3.9</data>
-  <data key="d1">3467.959</data>
+  <data key="d1">Africa</data>
+  <data key="d2">3467.959</data>
+  <data key="d3">English</data>
 </node>
 <node id="Lesotho">
   <data key="d0">4.0</data>
-  <data key="d1">1157.535</data>
+  <data key="d1">Africa</data>
+  <data key="d2">1157.535</data>
+  <data key="d3">English</data>
 </node>
 <node id="Namibia">
   <data key="d0">5.2</data>
-  <data key="d1">4957.458</data>
+  <data key="d1">Africa</data>
+  <data key="d2">4957.458</data>
+  <data key="d3">English</data>
 </node>
 <node id="Uruguay">
   <data key="d0">5.7</data>
-  <data key="d1">16190.127</data>
+  <data key="d1">South_America</data>
+  <data key="d2">16190.127</data>
+  <data key="d3">Spanish</data>
 </node>
 <node id="Brunei">
   <data key="d0">6.1</data>
-  <data key="d1">31086.751</data>
+  <data key="d1">Asia</data>
+  <data key="d2">31086.751</data>
+  <data key="d3">Malay</data>
 </node>
 <node id="Cambodia">
   <data key="d0">4.4</data>
-  <data key="d1">1643.121</data>
+  <data key="d1">Asia</data>
+  <data key="d2">1643.121</data>
+  <data key="d3">Khmer language</data>
 </node>
 <node id="Fiji">
   <data key="d0">4.3</data>
-  <data key="d1">6220.046</data>
+  <data key="d1">Oceania</data>
+  <data key="d2">6220.046</data>
+  <data key="d3">Fiji Hindi</data>
 </node>
 <node id="Malaysia">
   <data key="d0">5.3</data>
-  <data key="d1">11239.782</data>
+  <data key="d1">Asia</data>
+  <data key="d2">11239.782</data>
+  <data key="d3">Malaysian language</data>
 </node>
 <node id="Burkina_Faso">
   <data key="d0">3.8</data>
-  <data key="d1">774.84</data>
+  <data key="d1">Africa</data>
+  <data key="d2">774.84</data>
+  <data key="d3">French</data>
 </node>
 <node id="Ivory_Coast">
   <data key="d0">4.7</data>
-  <data key="d1">2286.163</data>
+  <data key="d1">Africa</data>
+  <data key="d2">2286.163</data>
+  <data key="d3">French</data>
 </node>
 <node id="Senegal">
   <data key="d0">6.0</data>
-  <data key="d1">1446.831</data>
+  <data key="d1">Africa</data>
+  <data key="d2">1446.831</data>
+  <data key="d3">French</data>
 </node>
 <node id="Sudan">
   <data key="d0">3.2</data>
-  <data key="d1">441.506</data>
+  <data key="d1">Africa</data>
+  <data key="d2">441.506</data>
+  <data key="d3">Arabic</data>
 </node>
 <node id="Somalia">
   <data key="d0">4.0</data>
-  <data key="d1">305.689</data>
+  <data key="d1">Africa</data>
+  <data key="d2">305.689</data>
+  <data key="d3">Arabic</data>
 </node>
 <node id="Uganda">
   <data key="d0">4.1</data>
-  <data key="d1">776.769</data>
+  <data key="d1">Africa</data>
+  <data key="d2">776.769</data>
+  <data key="d3">Swahili</data>
 </node>
 <node id="Tanzania">
   <data key="d0">5.6</data>
-  <data key="d1">1089.157</data>
+  <data key="d1">Africa</data>
+  <data key="d2">1089.157</data>
+  <data key="d3">Swahili</data>
 </node>
 <node id="Laos">
   <data key="d0">4.2</data>
-  <data key="d1">2534.898</data>
+  <data key="d1">Asia</data>
+  <data key="d2">2534.898</data>
+  <data key="d3">Lao</data>
 </node>
 <node id="Thailand">
   <data key="d0">5.2</data>
-  <data key="d1">7808.193</data>
+  <data key="d1">Asia</data>
+  <data key="d2">7808.193</data>
+  <data key="d3">Thai</data>
 </node>
 <node id="Cameroon">
   <data key="d0">4.3</data>
-  <data key="d1">1497.909</data>
+  <data key="d1">Africa</data>
+  <data key="d2">1497.909</data>
+  <data key="d3">French</data>
 </node>
 <node id="Chad">
   <data key="d0">3.1</data>
-  <data key="d1">709.54</data>
+  <data key="d1">Africa</data>
+  <data key="d2">709.54</data>
+  <data key="d3">French</data>
 </node>
 <node id="Cape_Verde">
   <data key="d0">4.6</data>
-  <data key="d1">4097.872</data>
+  <data key="d1">Africa</data>
+  <data key="d2">4097.872</data>
+  <data key="d3">Portuguese</data>
 </node>
 <node id="Guinea-Bissau">
   <data key="d0">3.2</data>
-  <data key="d1">697.784</data>
+  <data key="d1">Africa</data>
+  <data key="d2">697.784</data>
+  <data key="d3">Portuguese</data>
 </node>
 <node id="Central_African_Republic">
   <data key="d0">3.1</data>
-  <data key="d1">467.907</data>
+  <data key="d1">Africa</data>
+  <data key="d2">467.907</data>
+  <data key="d3">French</data>
 </node>
 <node id="Nicaragua">
   <data key="d0">3.6</data>
-  <data key="d1">1912.904</data>
+  <data key="d1">North_America</data>
+  <data key="d2">1912.904</data>
+  <data key="d3">Spanish</data>
 </node>
 <node id="Mongolia">
   <data key="d0">5.2</data>
-  <data key="d1">4295.235</data>
+  <data key="d1">Asia</data>
+  <data key="d2">4295.235</data>
+  <data key="d3">Mongolian</data>
 </node>
 <node id="Haiti">
   <data key="d0">2.3</data>
-  <data key="d1">754.588</data>
+  <data key="d1">North_America</data>
+  <data key="d2">754.588</data>
+  <data key="d3">French</data>
 </node>
 <node id="Comoros">
   <data key="d0">3.7</data>
-  <data key="d1">1393.522</data>
+  <data key="d1">Africa</data>
+  <data key="d2">1393.522</data>
+  <data key="d3">French</data>
 </node>
 <node id="Kenya">
   <data key="d0">5.7</data>
-  <data key="d1">1816.547</data>
+  <data key="d1">Africa</data>
+  <data key="d2">1816.547</data>
+  <data key="d3">Swahili</data>
 </node>
 <node id="Madagascar">
   <data key="d0">4.6</data>
-  <data key="d1">522.22</data>
+  <data key="d1">Africa</data>
+  <data key="d2">522.22</data>
+  <data key="d3">French</data>
 </node>
 <node id="Mauritius">
   <data key="d0">5.5</data>
-  <data key="d1">11203.541</data>
+  <data key="d1">Africa</data>
+  <data key="d2">11203.541</data>
+  <data key="d3">French</data>
 </node>
 <node id="Costa_Rica">
   <data key="d0">7.0</data>
-  <data key="d1">12238.375</data>
+  <data key="d1">North_America</data>
+  <data key="d2">12238.375</data>
+  <data key="d3">Spanish</data>
 </node>
 <node id="El_Salvador">
   <data key="d0">4.1</data>
-  <data key="d1">4187.25</data>
+  <data key="d1">North_America</data>
+  <data key="d2">4187.25</data>
+  <data key="d3">Spanish</data>
 </node>
 <node id="Dominican_Republic">
   <data key="d0">4.6</data>
-  <data key="d1">8282.116</data>
+  <data key="d1">North_America</data>
+  <data key="d2">8282.116</data>
+  <data key="d3">Spanish</data>
 </node>
 <node id="Ethiopia">
   <data key="d0">5.0</data>
-  <data key="d1">857.501</data>
+  <data key="d1">Africa</data>
+  <data key="d2">857.501</data>
+  <data key="d3">Amharic</data>
 </node>
 <node id="Cyprus">
   <data key="d0">4.7</data>
-  <data key="d1">20494.878</data>
+  <data key="d1">Asia</data>
+  <data key="d2">20494.878</data>
+  <data key="d3">Greek</data>
 </node>
 <node id="Czech_Republic">
   <data key="d0">6.1</data>
-  <data key="d1">23101.778</data>
+  <data key="d1">Europe</data>
+  <data key="d2">23101.778</data>
+  <data key="d3">Czech</data>
 </node>
 <node id="Slovakia">
   <data key="d0">5.9</data>
-  <data key="d1">19329.097</data>
+  <data key="d1">Europe</data>
+  <data key="d2">19329.097</data>
+  <data key="d3">Slovak</data>
 </node>
 <node id="South_Sudan">
   <data key="d0">2.8</data>
-  <data key="d1">1084.585</data>
+  <data key="d1">Africa</data>
+  <data key="d2">1084.585</data>
+  <data key="d3">English</data>
 </node>
 <node id="Togo">
   <data key="d0">4.2</data>
-  <data key="d1">675.542</data>
+  <data key="d1">Africa</data>
+  <data key="d2">675.542</data>
+  <data key="d3">French</data>
 </node>
 <node id="Estonia">
   <data key="d0">5.6</data>
-  <data key="d1">23566.89</data>
+  <data key="d1">Europe</data>
+  <data key="d2">23566.89</data>
+  <data key="d3">Estonian</data>
 </node>
 <node id="Djibouti">
   <data key="d0">5.7</data>
-  <data key="d1">3408.846</data>
+  <data key="d1">Africa</data>
+  <data key="d2">3408.846</data>
+  <data key="d3">French</data>
 </node>
 <node id="Eritrea">
   <data key="d0">4.3</data>
-  <data key="d1">326.063</data>
+  <data key="d1">Africa</data>
+  <data key="d2">326.063</data>
+  <data key="d3">Tigrinya</data>
 </node>
 <node id="Dominica">
   <data key="d0">5.0</data>
-  <data key="d1">8300.375</data>
+  <data key="d1">North_America</data>
+  <data key="d2">8300.375</data>
+  <data key="d3">English</data>
 </node>
 <node id="Equatorial_Guinea">
   <data key="d0">3.0</data>
-  <data key="d1">8131.924</data>
+  <data key="d1">Africa</data>
+  <data key="d2">8131.924</data>
+  <data key="d3">Spanish</data>
 </node>
 <node id="Liberia">
   <data key="d0">4.0</data>
-  <data key="d1">621.893</data>
+  <data key="d1">Africa</data>
+  <data key="d2">621.893</data>
+  <data key="d3">English</data>
 </node>
 <node id="Sierra_Leone">
   <data key="d0">4.1</data>
-  <data key="d1">504.463</data>
+  <data key="d1">Africa</data>
+  <data key="d2">504.463</data>
+  <data key="d3">English</data>
 </node>
 <node id="Finland">
   <data key="d0">6.5</data>
-  <data key="d1">48685.854</data>
+  <data key="d1">Europe</data>
+  <data key="d2">48685.854</data>
+  <data key="d3">Swedish</data>
 </node>
 <node id="Latvia">
   <data key="d0">5.2</data>
-  <data key="d1">17836.365</data>
+  <data key="d1">Europe</data>
+  <data key="d2">17836.365</data>
+  <data key="d3">Latvian</data>
 </node>
 <node id="Romania">
   <data key="d0">4.8</data>
-  <data key="d1">12919.53</data>
+  <data key="d1">Europe</data>
+  <data key="d2">12919.53</data>
+  <data key="d3">Romanian</data>
 </node>
 <node id="Samoa">
   <data key="d0">6.0</data>
-  <data key="d1">4200.641</data>
+  <data key="d1">Oceania</data>
+  <data key="d2">4200.641</data>
+  <data key="d3">Samoan</data>
 </node>
 <node id="Solomon_Islands">
   <data key="d0">4.5</data>
-  <data key="d1">2127.539</data>
+  <data key="d1">Oceania</data>
+  <data key="d2">2127.539</data>
+  <data key="d3">English</data>
 </node>
 <node id="Tonga">
   <data key="d0">5.8</data>
-  <data key="d1">4494.14</data>
+  <data key="d1">Oceania</data>
+  <data key="d2">4494.14</data>
+  <data key="d3">Tongan Language</data>
 </node>
 <node id="North_Macedonia">
   <data key="d0">5.0</data>
-  <data key="d1">5564.713</data>
+  <data key="d1">Europe</data>
+  <data key="d2">5564.713</data>
+  <data key="d3">Macedonian</data>
 </node>
 <node id="Myanmar">
   <data key="d0">3.7</data>
-  <data key="d1">1407.813</data>
+  <data key="d1">Asia</data>
+  <data key="d2">1407.813</data>
+  <data key="d3">Burmese</data>
 </node>
 <node id="Turkmenistan">
   <data key="d0">3.9</data>
-  <data key="d1">6859.733</data>
+  <data key="d1">Asia</data>
+  <data key="d2">6859.733</data>
+  <data key="d3">Turkmen</data>
 </node>
 <node id="Kazakhstan">
   <data key="d0">5.6</data>
-  <data key="d1">9731.145</data>
+  <data key="d1">Asia</data>
+  <data key="d2">9731.145</data>
+  <data key="d3">Russian</data>
 </node>
 <node id="Zambia">
   <data key="d0">5.8</data>
-  <data key="d1">1291.343</data>
+  <data key="d1">Africa</data>
+  <data key="d2">1291.343</data>
+  <data key="d3">English</data>
 </node>
 <node id="Kiribati">
   <data key="d0">4.9</data>
-  <data key="d1">1655.079</data>
+  <data key="d1">Oceania</data>
+  <data key="d2">1655.079</data>
+  <data key="d3">English</data>
 </node>
 <node id="Nauru">
   <data key="d0">5.8</data>
-  <data key="d1">13189.211</data>
+  <data key="d1">Oceania</data>
+  <data key="d2">13189.211</data>
+  <data key="d3">English</data>
 </node>
 <node id="Tuvalu">
   <data key="d0">6.2</data>
-  <data key="d1">4059.03</data>
+  <data key="d1">Oceania</data>
+  <data key="d2">4059.03</data>
+  <data key="d3">Tuvaluan Language</data>
 </node>
 <node id="Kyrgyzstan">
   <data key="d0">4.6</data>
-  <data key="d1">1309.393</data>
+  <data key="d1">Asia</data>
+  <data key="d2">1309.393</data>
+  <data key="d3">Russian</data>
 </node>
 <node id="Tajikistan">
   <data key="d0">3.6</data>
-  <data key="d1">870.788</data>
+  <data key="d1">Asia</data>
+  <data key="d2">870.788</data>
+  <data key="d3">Persian</data>
 </node>
 <node id="United_Arab_Emirates">
   <data key="d0">6.2</data>
-  <data key="d1">43103.323</data>
+  <data key="d1">Asia</data>
+  <data key="d2">43103.323</data>
+  <data key="d3">Arabic</data>
 </node>
 <node id="Malawi">
   <data key="d0">5.5</data>
-  <data key="d1">411.552</data>
+  <data key="d1">Africa</data>
+  <data key="d2">411.552</data>
+  <data key="d3">English</data>
 </node>
 <node id="Marshall_Islands">
   <data key="d0">4.6</data>
-  <data key="d1">3763.807</data>
+  <data key="d1">Oceania</data>
+  <data key="d2">3763.807</data>
+  <data key="d3">Marshallese</data>
 </node>
 <node id="Micronesia">
   <data key="d0">5.9</data>
-  <data key="d1">3531.453</data>
+  <data key="d1">Oceania</data>
+  <data key="d2">3531.453</data>
+  <data key="d3">English</data>
 </node>
 <node id="Palau">
   <data key="d0">5.2</data>
-  <data key="d1">15575.873</data>
+  <data key="d1">Oceania</data>
+  <data key="d2">15575.873</data>
+  <data key="d3">English</data>
 </node>
 <node id="Seychelles">
   <data key="d0">6.1</data>
-  <data key="d1">17401.722</data>
+  <data key="d1">Africa</data>
+  <data key="d2">17401.722</data>
+  <data key="d3">French</data>
 </node>
 <node id="Vanuatu">
   <data key="d0">5.4</data>
-  <data key="d1">3058.066</data>
+  <data key="d1">Oceania</data>
+  <data key="d2">3058.066</data>
+  <data key="d3">French</data>
 </node>
 <node id="Monaco">
   <data key="d0">6.7</data>
-  <data key="d1">184396.987</data>
+  <data key="d1">Europe</data>
+  <data key="d2">184396.987</data>
+  <data key="d3">French</data>
 </node>
 <node id="Suriname">
   <data key="d0">4.4</data>
-  <data key="d1">6854.907</data>
+  <data key="d1">South_America</data>
+  <data key="d2">6854.907</data>
+  <data key="d3">Dutch</data>
 </node>
 <node id="South_Korea">
   <data key="d0">5.2</data>
-  <data key="d1">39238.743</data>
+  <data key="d1">Asia</data>
+  <data key="d2">39238.743</data>
+  <data key="d3">Korean</data>
 </node>
 <node id="Papua_New_Guinea">
   <data key="d0">5.0</data>
-  <data key="d1">2845.18</data>
+  <data key="d1">Oceania</data>
+  <data key="d2">2845.18</data>
+  <data key="d3">Tok Pisin</data>
 </node>
 <node id="Saint_Kitts_and_Nevis">
   <data key="d0">5.1</data>
-  <data key="d1">19896.496</data>
+  <data key="d1">North_America</data>
+  <data key="d2">19896.496</data>
+  <data key="d3">English</data>
 </node>
 <node id="Saint_Lucia">
   <data key="d0">5.3</data>
-  <data key="d1">11611.415</data>
+  <data key="d1">North_America</data>
+  <data key="d2">11611.415</data>
+  <data key="d3">English</data>
 </node>
 <node id="Saint_Vincent_and_the_Grenadines">
   <data key="d0">5.3</data>
-  <data key="d1">8216.467</data>
+  <data key="d1">North_America</data>
+  <data key="d2">8216.467</data>
+  <data key="d3">English</data>
 </node>
 <node id="San_Marino">
   <data key="d0">7.3</data>
-  <data key="d1">48373.628</data>
+  <data key="d1">Europe</data>
+  <data key="d2">48373.628</data>
+  <data key="d3">Italian</data>
 </node>
 <node id="The_Gambia">
   <data key="d0">4.9</data>
-  <data key="d1">751.295</data>
+  <data key="d1">Africa</data>
+  <data key="d2">751.295</data>
+  <data key="d3">English</data>
 </node>
 <node id="São_Tomé_and_Príncipe">
   <data key="d0">5.0</data>
-  <data key="d1">1994.906</data>
+  <data key="d1">Africa</data>
+  <data key="d2">1994.906</data>
+  <data key="d4">nan</data>
 </node>
 <node id="The_Bahamas">
   <data key="d0">5.3</data>
-  <data key="d1">32933.486</data>
+  <data key="d1">North_America</data>
+  <data key="d2">32933.486</data>
+  <data key="d3">English</data>
 </node>
 <node id="Timor-Leste">
   <data key="d0">4.0</data>
-  <data key="d1">478.154</data>
+  <data key="d1">Asia</data>
+  <data key="d2">478.154</data>
+  <data key="d3">Portuguese</data>
 </node>
 <edge source="Afghanistan" target="China"/>
 <edge source="Afghanistan" target="Egypt"/>
