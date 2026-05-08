@@ -44,12 +44,6 @@ The analysis combines **network topology**, **sentiment analysis**, and **commun
 
 ---
 
-## 📚 Context
-
-Developed as the final assignment for **02467 – Social Graphs and Interactions** at DTU – Technical University of Denmark (Autumn 2025).
-
----
-
 ## 👤 Authors
 
 Maria Vendas, João Mata and Rita Silva.
